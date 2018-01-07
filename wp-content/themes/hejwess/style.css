@@ -118,44 +118,115 @@ a img {
  * Index page main content
  */
 
- .second {
+ .two {
 
  }
- .second .left {
+ .two .left {
 	 text-align: center;
 	 font-size: 30px;
 	 font-weight: bold;
  }
- .second .right {
+ .two .right {
 	 text-align: center;
  }
 
- .third {
+ .three {
 	background-color: yellow;
 	display: flex;
 	padding: 20px 0;
  }
 
-.forth {
+ .three .left {
+	 
+ }
+
+.four {
 	
 }
-.forth .left {
+.four .left {
 	text-align: center;
 	font-size: 30px;
 	font-weight: bold;
 }
-.forth .right {
+.four .right {
 	text-align: center;
 }
-.fifth .section:nth-child(odd) {
+.five .section:nth-child(odd) {
 	border-right: 1px solid grey;
 }
-.fifth .section:nth-child(3),
-.fifth .section:nth-child(4) {
+.five .section:nth-child(3),
+.five .section:nth-child(4) {
 	border-bottom: 1px solid grey;
 }
-.fifth .section {
+.five .section {
 	text-align: center;
 	padding: 10px 0;
 	border-top: 1px solid grey;
+}
+.line::after {
+	content: " ";
+	display: block;
+	border-bottom: 1px solid gray;
+}
+.eight span {
+	display: block;
+	color: yellow;
+}
+.eight p {
+	padding-left: 8px;
+}
+.ten p {
+	margin-bottom: 10px;
+}
+.ten span {
+	display: inline-block;
+	margin-right: 7px;
+}
+
+.ten span a {
+	color: black;
+	border-bottom: 1px solid yellow;
+}
+.ten span a:hover {
+	text-decoration: none;
+	color: black;
+}
+.twelve .section:nth-child(odd) {
+	border-right: 1px solid grey;
+}
+.twelve .section {
+	text-align: center;
+	padding: 10px 0;
+	border-top: 1px solid grey;
+}
+.thirteen .section {
+	height: 80px;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column
+}
+.thirteen span {
+	padding: 10px 0;
+	background-color: yellow;
+}
+
+.fourteen .left {
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+}
+.fourteen .right {
+	text-align: center;
+}
+
+/**
+* 3 - Footer
+*
+*/
+footer ul li a {
+	color: black;
+}
+footer ul li a:hover {
+	text-decoration: none;
+	color: black;
 }

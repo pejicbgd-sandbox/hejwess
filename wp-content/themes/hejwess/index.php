@@ -8,13 +8,79 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
-			<div class="splice">
 
+			<div class="splash">
+					<div class="logo">
+						<a href="<?php echo get_site_url() ?>" title="Home">
+							<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/footer-logo.png" alt="Logo" />
+						</a>
+					</div>
+
+					<div class="langs">
+						<a href="" title=""><span class="active">en.</span></a>
+						<a href="" title=""><span>ge.</span></a>
+						<a href="" title=""><span>es.</span></a>
+						<a href="" title=""><span>ca.</span></a>
+					</div>
+
+					<div class="content">
+						<ul>
+							<li>
+								<a href="#" title="">ABOUT ME</a>
+							</li>
+							<li>
+								<a href="#" title="">SERVICES</a>
+							</li>
+							<li>
+								<a href="#" title="">EVENTS</a>
+							</li>
+							<li>
+								<a href="#" title="">BLOG</a>
+							</li>
+							<li>
+								<a href="#" title="">CONTACT</a>
+							</li>
+							<li>
+								<a href="#" title="">Login</a>
+							</li>
+							<li>
+								<a href="#" title="">Search</a>
+							</li>
+						</ul>
+
+						<div>
+							<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/eye.png" alt="Eye" />
+							<h1>Strategic Leadership is an agency that will make you grow.</h1>
+						</div>
+
+						<div class="social">
+								<a href="#" title="Facebook">
+									<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/f.png" alt="" />
+								</a>
+								<a href="#" title="Twitter">
+									<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/t.png" alt="" />
+								</a>
+								<a href="#" title="Linkedin">
+									<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/l.png" alt="" />
+								</a>
+								<a href="#" title="Instagram">
+									<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/i.png" alt="" />
+								</a>
+								<a href="#" title="Youtube">
+									<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/y.png" alt="" />
+								</a>
+						</div>
+
+					</div>
 			</div>
 
-			<div class="container">
-				<div class="row">
+			<div class="parallax">
+				<section data-speed="5" class="aim">
+    			<h1>aim</hi>
+  			</section>
+			</div>
 
+				<div class="row">
 					<div class="two">
 						<div class="left col-xs-12 col-md-6">
 							<h2>what is this all about?<br /><span>vision<span></h2>
@@ -30,17 +96,21 @@ get_header(); ?>
 				<div class="row">
 					<div class="three">
 						<div class="left col-xs-12 col-md-6">
+							<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/arrow-right.png" alt="Arrow" />
 							Innovacion organizational
 						</div>
 
 						<div class="right col-xs-12 col-md-6">
+							<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/arrow-right.png" alt="Arrow" />
 							Emprideiemnto exidos
 						</div>
 					</div>
 				</div>
 
-				<div class="services-header">
-
+				<div class="parallax">
+					<section data-speed="5" class="services">
+						<h1>services</hi>
+					</section>
 				</div>
 
 				<div class="row">
@@ -91,16 +161,14 @@ get_header(); ?>
 							<h2>who am I?<br /><span>Idealista<span></h2>
 							<br />
 							<br />
-							simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
-							dummy text ever since the 1500s, when an unknown
+							Soy Consultor Estratégico y Facilitador Sistémico para la mejor
 							<br />
 							<img src="" alt="" />
 							<span class="readmore">find out more</span>
 						</div>
 
 						<div class="col-xs-12 col-md-6">
-							simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
-							dummy text ever since the 1500s, when an unknown
+							<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/parachute.png" alt="" />
 						</div>
 					</div>
 				</div>
@@ -290,9 +358,9 @@ get_header(); ?>
 								<img src="" alt="" />
 								I would like to submit my story
 							</div>
-						</div> 
+						</div>
 					</div>
-					
+
 				</div>
 
 				<div class="line"></div>
@@ -354,14 +422,13 @@ get_header(); ?>
 						</div>
 
 						<div id="slider" class="right col-xs-12 col-md-6">
-							
+
 						</div>
 					</div>
 				</div>
 
 				<div class="line"></div>
 
-			</div>
 		</main><!-- .site-main -->
 	</div><!-- .content-area -->
 

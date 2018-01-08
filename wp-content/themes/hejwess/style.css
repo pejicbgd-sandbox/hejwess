@@ -117,39 +117,115 @@ a img {
  *
  * Index page main content
  */
+.splash {
+	height: 100vh;
+}
+.splash .logo {
+	position: absolute;
+	top: 50px;
+	left: 50px;
+}
+.splash .langs {
+	position: absolute;
+	top: 50px;
+	right: 50px;
+	display: inline-block;
+	margin-left: 4px;
+	font-size: 15px;
+}
+.splash .langs a {
+	color: grey;
+}
+.splash .langs .active {
+	color: black;
+}
+.splash .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+		position: relative;
+		top: 50%;
+		transform: translateY(-50%);
+}
+.splash .content h1 {
+	color: rgb(254, 135, 19);
+	font-size: 18px;
+	text-align: center;
+	padding-top: 20px;
+}
+.splash .content ul {
+	padding-left: 50px;
+}
+.splash .content ul li a {
+	color: black;
+	font-size: 18px;
+}
+.splash .langs a,
+.splash .content ul li a:hover {
+	text-decoration: none;
+}
+.splash .content .social {
+	margin-right: 10px;
+}
+.splash .content .social a {
+	display: block;
+	margin-bottom: 20px;
+}
+
+.parallax {
+  height: 475px;
+	overflow-y: hidden;
+}
+.parallax section {
+	height: 1000px;
+  margin: 0 auto;
+  width: 100%;
+  position: relative;
+}
+.parallax h1 {
+  position: absolute;
+  text-align: center;
+  top: 90px;
+	left: 50px;
+	color: white;
+	font-size: 60px;
+}
+.aim {
+	background: url("img/aim.png") 50% 0 repeat fixed; min-height: 1000px;
+}
+.services {
+	background: url("img/services.png") 50% 0 repeat fixed; min-height: 1000px;
+}
 
  .two {
-
+	 height: 400px;
  }
- .two .left {
-	 text-align: center;
-	 font-size: 30px;
-	 font-weight: bold;
- }
+ .two .left,
  .two .right {
-	 text-align: center;
+	 display: flex;
+	 align-items: center;
+	 justify-content: center;
+	 height: 100%;
  }
 
  .three {
-	background-color: yellow;
+	background-color: #e0de00;
 	display: flex;
-	padding: 20px 0;
- }
-
- .three .left {
-	 
+	align-items: center;
+	text-align: center;
+	height: 70px;
  }
 
 .four {
-	
+	height: 275px;
 }
-.four .left {
-	text-align: center;
-	font-size: 30px;
-	font-weight: bold;
-}
+.four .left,
 .four .right {
 	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
 }
 .five .section:nth-child(odd) {
 	border-right: 1px solid grey;
@@ -223,6 +299,10 @@ a img {
 * 3 - Footer
 *
 */
+footer h4 {
+	margin-bottom: 30px;
+	font-size: 18px;
+}
 footer ul li a {
 	color: black;
 }

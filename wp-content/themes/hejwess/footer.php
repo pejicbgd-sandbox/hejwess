@@ -14,7 +14,7 @@
 	<footer class="container">
 		<div class="row">
 			<div class="col-xs-12 col-md-3">
-				<img src="" alt="" />
+				<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/footer-logo.png" alt="" />
 			</div>
 
 			<div class="col-xs-12 col-md-3">
@@ -69,7 +69,7 @@
 				<h4>Contact</h4>
 				<p>telefone 1<p>
 				<p>telefone 2<p>
-				<h4>Sign up for a newsletter</h4>
+				<h3>Sign up for a newsletter</h3>
 				<form method="post" action="">
 					<input type="email" name="email" required />
 					<button type="submit">Submit</button>
@@ -83,5 +83,7 @@
 
 <?php wp_footer(); ?>
 
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="<?php echo esc_url( get_template_directory_uri() ); ?>/js/main.js"></script>
 </body>
 </html>

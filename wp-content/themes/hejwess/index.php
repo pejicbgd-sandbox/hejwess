@@ -76,7 +76,7 @@ get_header(); ?>
 
 			<div class="parallax">
 				<section data-speed="5" class="aim">
-    			<h1>aim</hi>
+    			<h1>Aim</hi>
   			</section>
 			</div>
 
@@ -87,8 +87,13 @@ get_header(); ?>
 						</div>
 
 						<div class="right col-xs-12 col-md-6">
-							simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
-							dummy text ever since the 1500s, when an unknown
+						El potencial autentico, la fuerza 
+						inspiradora de nuestro éxito; 
+						reside en el reconocimiento de 
+						nuestras herramientas y recursos, 
+						así como en nuestra capacidad de 
+						reconexión consciente con nuestro 
+						verdadero propósito.
 						</div>
 					</div>
 				</div>
@@ -97,17 +102,21 @@ get_header(); ?>
 					<div class="three">
 						<div class="left col-xs-12 col-md-6">
 							<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/arrow-right.png" alt="Arrow" />
-							Innovacion organizational
+							<a href="" title="">
+								Innovacion organizational
+							</a>
 						</div>
 
 						<div class="right col-xs-12 col-md-6">
 							<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/arrow-right.png" alt="Arrow" />
-							Emprideiemnto exidos
+							<a href="" title="">
+								Emprideiemnto exidos
+							</a>
 						</div>
 					</div>
 				</div>
 
-				<div class="parallax">
+				<div class="parallax fourth">
 					<section data-speed="5" class="services">
 						<h1>services</hi>
 					</section>
@@ -116,12 +125,14 @@ get_header(); ?>
 				<div class="row">
 					<div class="four">
 						<div class="left col-xs-12 col-md-6">
-							<h2>what we do?</h2>
+							<h2>What we do?</h2>
 						</div>
 
 						<div class="right col-xs-12 col-md-6">
-							simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
-							dummy text ever since the 1500s, when an unknown
+							El potencial autentico, la fuerza 
+							inspiradora de nuestro éxito; 
+							reside en el reconocimiento de 
+							nuestras herramientas...
 						</div>
 					</div>
 				</div>
@@ -130,26 +141,26 @@ get_header(); ?>
 					<div class="five">
 						<div class="section col-xs-12 col-md-6">
 							<img src="" alt="" />
-							<h3>espendioensoodo asdj kas</h3>
-							<h6>dasdadadadada</h6>
+							<h3>Emprendiendo Exitos</h3>
+							<h6>¿De qué manera creas tú solida marca personal?</h6>
 						</div>
 
 						<div class="section col-xs-12 col-md-6">
 							<img src="" alt="" />
-							<h3>espendioensoodo asdj kas</h3>
-							<h6>dasdadadadada</h6>
+							<h3>Mejora Continua Organizacional</h3>
+							<h6>¿Como afrontar de la mejor manera un proceso<br /> derestructuracion organizacional?</h6>
 						</div>
 
 						<div class="section col-xs-12 col-md-6">
 							<img src="" alt="" />
-							<h3>espendioensoodo asdj kas</h3>
-							<h6>dasdadadadada</h6>
+							<h3>Coaching Sistémico</h3>
+							<h6>¿Para que vivir en tu realidad actual<br />de resignacion al cambio?</h6>
 						</div>
 
 						<div class="section col-xs-12 col-md-6">
 							<img src="" alt="" />
-							<h3>espendioensoodo asdj kas</h3>
-							<h6>dasdadadadada</h6>
+							<h3>Innovatión en la Gestión de Proyectos</h3>
+							<h6>¿Cuales son los principios claves para <br />generar un trabajo optimo por objectivos?</h6>
 						</div>
 					</div>
 				</div>
@@ -159,12 +170,14 @@ get_header(); ?>
 					<div class="six">
 						<div class="col-xs-12 col-md-6">
 							<h2>who am I?<br /><span>Idealista<span></h2>
-							<br />
-							<br />
-							Soy Consultor Estratégico y Facilitador Sistémico para la mejor
-							<br />
-							<img src="" alt="" />
-							<span class="readmore">find out more</span>
+							<p>
+								Soy Consultor Estratégico y Facilitador Sistémico para la mejora continua y la gestión 
+								creativa de la innovación. Me dedico a apoyar a emprendedores y organizaciones, hacia una transformación 
+								sistémica exitosa; facilitando potenciar sus talentos, ayudándolos a descubrir nuevas herramientas, 
+								impulsando sus recursos esenciales.
+								<img src="" alt="" />
+								<span class="readmore">find out more</span>
+							</p>
 						</div>
 
 						<div class="col-xs-12 col-md-6">
@@ -175,107 +188,117 @@ get_header(); ?>
 				<div class="row">
 					<div class="seven">
 						<div class="col-xs-12 col-md-6">
-							simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
-							dummy text ever since the 1500s, when an unknown
+							<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/boy.png" alt="" />
 						</div>
 
 						<div class="col-xs-12 col-md-6">
-							<h2>who am I?<br /><span>Idealista<span></h2>
-							<br />
-							<br />
-							simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
-							dummy text ever since the 1500s, when an unknown
+							<h2>¿De que manera lo hago?<br />“Aprendiendo a emprender”</h2>
+							<p>
+								Contribuyendo a través de mi Consultoría 
+								Estratégica y Facilitación Sistémica, teniendo 
+								como objetivo principal apoyar y acompañar 
+								a las personas en sugestión del liderazgo, para ganar con ello diferenciación, rendimivento 
+								y eficiencita. Cada uno de mis clientes es 
+								único y diferente, es por ello que cuento con 
+								métodos propios, definidos y adaptados a 
+								cada una de sus realidades y necesidades.
+							</p>
 						</div>
 					</div>
 				</div>
 
-				<div class="row eight">
+				<div class="row eight first">
 					<div class="line"></div>
-					<div class="col-xs-12 col-md-4">
-						<span>1</span>
-						<p>metodologiast neki racq</p>
+					<div class="wrap col-xs-12 col-md-4">
+						<div>
+							<span>1</span>
+							<p>Metodologías Sistémicas<br />Innovadovras</p>
+						</div>
 					</div>
-					<div class="col-xs-12 col-md-4">
-						<span>2</span>
-						<p>metodologiast neki racq</p>
+					<div class="wrap col-xs-12 col-md-4">
+						<div>
+							<span>2</span>
+							<p>metodologiast neki racq</p>
+						</div>
 					</div>
-					<div class="col-xs-12 col-md-4 clearfix">
-						<span>3</span>
-						<p>metodologiast neki racq</p>
+					<div class="wrap col-xs-12 col-md-4 clearfix">
+						<div>
+							<span>3</span>
+							<p>metodologiast neki racq</p>
+						</div>
 					</div>
 				</div>
 				<div class="row eight">
 					<div class="line"></div>
-					<div class="col-xs-12 col-md-4">
-						<span>4</span>
-						<p>metodologiast neki racq</p>
+					<div class="wrap col-xs-12 col-md-4">
+						<div>
+							<span>4</span>
+							<p>metodologiast neki racq</p>
+						</div>
 					</div>
-					<div class="col-xs-12 col-md-4">
-						<span>5</span>
-						<p>metodologiast neki racq</p>
+					<div class="wrap col-xs-12 col-md-4">
+						<div>
+							<span>5</span>
+							<p>metodologiast neki racq</p>
+						</div>
 					</div>
-					<div class="col-xs-12 col-md-4">
-						<span>6</span>
-						<p>metodologiast neki racq</p>
+					<div class="wrap col-xs-12 col-md-4">
+						<div>
+							<span>6</span>
+							<p>metodologiast neki racq</p>
+						</div>
 					</div>
 				</div>
 				<div class="row eight">
 					<div class="line"></div>
-					<div class="col-xs-12 col-md-4">
-						<span>7</span>
-						<p>metodologiast neki racq</p>
+					<div class="wrap col-xs-12 col-md-4">
+						<div>
+							<span>7</span>
+							<p>metodologiast neki racq</p>
+						</div>
 					</div>
-					<div class="col-xs-12 col-md-4">
+					<div class="wrap col-xs-12 col-md-4">
 						<img src="" alt="" />
-						<p>find out more</p>
+						<a href="#" alt="">find out more</a>
 					</div>
 				</div>
 
-				<div class="events-header">
-
+				<div class="parallax">
+					<section data-speed="5" class="events">
+						<h1>events</hi>
+					</section>
 				</div>
 
 				<div class="row">
 					<div class="nine">
 						<div class="col-xs-12 col-md-6">
-							<h2>upcoming events<br /><span>workshops<span></h2>
+							<h2>Upcoming Events<br /><span>workshops<span></h2>
 						</div>
 
 						<div class="col-xs-12 col-md-6">
-							simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
-							dummy text ever since the 1500s, when an unknown
+							<p>
+							"Echa un vistazo y participa con nosotros de diversas actividades tales como: Talleres, 
+							Seminarios, Grupos de estudios, Formaciones,…etc."
+							</p>
 						</div>
 					</div>
 				</div>
 
 				<div class="line"></div>
 
-				<div class="row">
+				<div class="row bottom-space">
 					<div class="ten">
 						<div class="col-xs-12 col-md-4">
-							<img src="" alt="" />
-							<h2>Discover you light</h2>
-							<p>January 31, 2018<br />at Barcelona</p>
+							<img class="head" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/digital.png" alt="" />
+							<h2>Discover Your Light</h2>
+							<p>January 27, 2018<br />at Barcelona</p>
 
-							<p>simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
-							dummy text ever since the 1500s, when an unknown</p>
-
-							<span><a href="#" title="">Education</a></span>
-							<span><a href="#" title="">Performances</a></span>
-							<span><a href="#" title="">Light</a></span>
-
-							<div>
-								<img src="" alt="" />
-								<span>find out more</span>
-							</div>
-						</div>
-						<div class="col-xs-12 col-md-4">
-							<img src="" alt="" />
-							<h2>Discover you light</h2>
-							<p>January 31, 2018<br />at Barcelona</p>
-
-							<p>simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
-							dummy text ever since the 1500s, when an unknown</p>
+							<p>
+							Introducing the Centered series. Join Ilona Holland on January 27 
+							for the first workshop in the Centered series, Discover your Light. 
+							Centered is a program series that 
+							embraces the creative practices... 
+							</p>
 
 							<span><a href="#" title="">Education</a></span>
 							<span><a href="#" title="">Performances</a></span>
@@ -287,12 +310,16 @@ get_header(); ?>
 							</div>
 						</div>
 						<div class="col-xs-12 col-md-4">
-							<img src="" alt="" />
-							<h2>Discover you light</h2>
-							<p>January 31, 2018<br />at Barcelona</p>
+							<img class="head" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/digital.png" alt="" />
+							<h2>Discover Your Light</h2>
+							<p>January 27, 2018<br />at Barcelona</p>
 
-							<p>simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
-							dummy text ever since the 1500s, when an unknown</p>
+							<p>
+							Introducing the Centered series. Join Ilona Holland on January 27 
+							for the first workshop in the Centered series, Discover your Light. 
+							Centered is a program series that 
+							embraces the creative practices... 
+							</p>
 
 							<span><a href="#" title="">Education</a></span>
 							<span><a href="#" title="">Performances</a></span>
@@ -303,17 +330,41 @@ get_header(); ?>
 								<span>find out more</span>
 							</div>
 						</div>
-						<div class="line"></div>
+						<div class="col-xs-12 col-md-4">
+							<img class="head" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/moms.png" alt="" />
+							<h2>Nizar Mamdani</h2>
+							<p>March 29, 2018<br />at Barcelona</p>
+
+							<p>
+								Join us  for a lecture from UNMC's Nizar Mamdani on March 29. 
+								Nizar and his wife Dr. Marsha Mamdani will share experiences with their innovative non-profit organization First...
+							</p>
+
+							<span><a href="#" title="">Great Minds</a></span>
+							<span><a href="#" title="">Light Series</a></span>
+							<span><a href="#" title="">Lectures</a></span>
+
+							<div>
+								<img src="" alt="" />
+								<span>find out more</span>
+							</div>
+						</div>
+						
 					</div>
 				</div>
 
-				<div class="blog-header">
+				<div class="line"></div>
 
+				<div class="parallax top">
+					<section data-speed="5" class="blog">
+						<h1>blog</hi>
+					</section>
 				</div>
+
 				<div class="row">
 					<div class="eleven">
 						<div class="col-xs-12 col-md-6">
-							<h2>let's exchange!<br /><span>Idealista<span></h2>
+							<h2>Let's exchange!</h2>
 						</div>
 
 						<div class="col-xs-12 col-md-6">

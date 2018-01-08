@@ -45,7 +45,7 @@ html {
 }
 
 body {
-	background: #f1f1f1;
+	background: white;
 }
 
 article,
@@ -117,17 +117,21 @@ a img {
  *
  * Index page main content
  */
+ html {
+  font-family: 'Karla', sans-serif;  
+  background-color: white;
+ }
 .splash {
 	height: 100vh;
 }
 .splash .logo {
 	position: absolute;
-	top: 50px;
+	top: 20px;
 	left: 50px;
 }
 .splash .langs {
 	position: absolute;
-	top: 50px;
+	top: 20px;
 	right: 50px;
 	display: inline-block;
 	margin-left: 4px;
@@ -140,16 +144,18 @@ a img {
 	color: black;
 }
 .splash .content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-		position: relative;
-		top: 50%;
-		transform: translateY(-50%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
 }
 .splash .content h1 {
-	color: rgb(254, 135, 19);
-	font-size: 18px;
+	color: #fe8713;
+  font-size: 22px;
+  font-weight: bold;
+  font-style: italic;
 	text-align: center;
 	padding-top: 20px;
 }
@@ -157,6 +163,8 @@ a img {
 	padding-left: 50px;
 }
 .splash .content ul li a {
+  display:inline-block;
+  padding-bottom: 10px;
 	color: black;
 	font-size: 18px;
 }
@@ -185,10 +193,10 @@ a img {
 .parallax h1 {
   position: absolute;
   text-align: center;
-  top: 90px;
+  top: 270px;
 	left: 50px;
 	color: white;
-	font-size: 60px;
+	font-size: 211px;
 }
 .aim {
 	background: url("img/aim.png") 50% 0 repeat fixed; min-height: 1000px;
@@ -196,10 +204,48 @@ a img {
 .services {
 	background: url("img/services.png") 50% 0 repeat fixed; min-height: 1000px;
 }
+.events {
+	background: url("img/events.png") 50% 0 repeat fixed; min-height: 1000px;
+}
+.blog {
+	background: url("img/blog.png") 50% 0 repeat fixed; min-height: 1000px;
+}
 
  .two {
 	 height: 400px;
  }
+ .two h2,
+ .four h2,
+ .nine h2 {
+  font-size: 40px;
+  width: 240px;
+  text-align: center;
+ }
+ .six h2 {
+  font-size: 40px;
+  text-align: center;
+ }
+ .seven h2 {
+  font-size: 40px;
+  width: 280px;
+  text-align: center;
+ }
+.eleven h2 {
+  font-size: 40px;
+  width: 240px;
+  text-align: center;
+ }
+ .six p,
+ .seven p {
+   font-size: 20px;
+   width: 460px;
+ }
+ .six p span {
+   display: block;
+   float: right;
+   width: 165px;
+ }
+
  .two .left,
  .two .right {
 	 display: flex;
@@ -207,17 +253,39 @@ a img {
 	 justify-content: center;
 	 height: 100%;
  }
+ .two .right,
+ .four .right {
+   width: 350px;
+   font-size: 20px;
+ }
 
  .three {
 	background-color: #e0de00;
 	display: flex;
 	align-items: center;
 	text-align: center;
-	height: 70px;
+  height: 70px;
+  text-transform: uppercase;
+  font-size: 20px;
+  line-height: 24px;
  }
-
-.four {
+.three a {
+  color: inherit;
+  vertical-align: -2px;
+}
+.three a:hover {
+  color: inherit;
+  text-decoration: none;
+}
+.fourth {
+  margin-top: 110px;
+}
+.four,
+eleven {
 	height: 275px;
+}
+.four h2 {
+  width: 200px;
 }
 .four .left,
 .four .right {
@@ -228,44 +296,100 @@ a img {
 	height: 100%;
 }
 .five .section:nth-child(odd) {
-	border-right: 1px solid grey;
+	border-right: 1px solid #ebebeb;
 }
 .five .section:nth-child(3),
 .five .section:nth-child(4) {
-	border-bottom: 1px solid grey;
+	border-bottom: 1px solid #ebebeb;
 }
 .five .section {
-	text-align: center;
 	padding: 10px 0;
-	border-top: 1px solid grey;
+	border-top: 1px solid #ebebeb;
+}
+.five h3 {
+  text-transform: uppercase;
+  color: black;
+  font-size: 20px;
+}
+.five h6 {
+  font-size: 16px;
+  color:#59a1d1;
+}
+.six,
+.seven,
+.eight.first,
+.eleven,
+.parallax.top {
+  margin-top: 100px;
 }
 .line::after {
 	content: " ";
 	display: block;
-	border-bottom: 1px solid gray;
+	border-bottom: 1px solid #ebebeb;
+}
+.eight .wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 120px;
 }
 .eight span {
-	display: block;
-	color: yellow;
+  color: #e0de00;
+  font-size: 39px;
+  display: inline-block;
+  vertical-align: 5px;
 }
 .eight p {
-	padding-left: 8px;
+  font-size: 16px;
+  text-transform: uppercase;
+  display: inline-block;
+}
+.eight a {
+  font-size: 16px;
+  text-decoration: underline;
+  display: inline-block;
+  color: black;
+}
+.nine {
+  height: 275px;
+}
+.nine p {
+  font-size: 20px;
+  width: 350px;
+}
+.bottom-space {
+  margin-bottom: 50px;
+}
+.ten {
+  margin-top: 50px;
+}
+.ten div {
+  border-top-color: transparent;
+}
+.ten h2 {
+  font-size: 20px;
 }
 .ten p {
-	margin-bottom: 10px;
+  margin-bottom: 10px;
+  font-size: 18px;
 }
 .ten span {
 	display: inline-block;
-	margin-right: 7px;
+  margin-right: 10px;
+  font-size: 16px;
 }
 
 .ten span a {
 	color: black;
-	border-bottom: 1px solid yellow;
+	border-bottom: 1px solid #e0de00;
 }
 .ten span a:hover {
 	text-decoration: none;
-	color: black;
+  color: black;
+  border-bottom: 2px solid #ebebeb;
+}
+.ten .head {
+  width: 100%;
 }
 .twelve .section:nth-child(odd) {
 	border-right: 1px solid grey;

@@ -71,9 +71,26 @@
 				<p>telefone 2<p>
 				<h3>Sign up for a newsletter</h3>
 				<form method="post" action="">
-					<input type="email" name="email" required />
+					<input type="email" placeholder="Email address" name="email" required />
 					<button type="submit">Submit</button>
 				</form>
+				<div class="social">
+						<a href="#" title="Facebook">
+							<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/f.png" alt="" />
+						</a>
+						<a href="#" title="Twitter">
+							<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/t.png" alt="" />
+						</a>
+						<a href="#" title="Linkedin">
+							<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/l.png" alt="" />
+						</a>
+						<a href="#" title="Instagram">
+							<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/i.png" alt="" />
+						</a>
+						<a href="#" title="Youtube">
+							<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/y.png" alt="" />
+						</a>
+				</div>
 			</div>
 
 		</div>

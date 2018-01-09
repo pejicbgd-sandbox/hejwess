@@ -8,4 +8,8 @@
           $bgobj.css({ backgroundPosition: coords });
       });
   });
+
+  $('.small-wrap').find('span').on('click', function() {
+      $('.menu').slideToggle(600);
+  });
 } )( jQuery );

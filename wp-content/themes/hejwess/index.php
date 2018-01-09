@@ -6,6 +6,22 @@
 
 get_header(); ?>
 
+	<div class="menu-small">
+		<div class="small-wrap">
+			<span>
+				<img height="20" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/menu.png" alt="Logo" />
+				menu
+			</span>
+			<img height="20" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/menu-logo.png" alt="Logo" />
+			<div class="langs">
+				<a href="" title=""><span class="active">en.</span></a>
+				<a href="" title=""><span>ge.</span></a>
+				<a href="" title=""><span>es.</span></a>
+				<a href="" title=""><span>ca.</span></a>
+			</div>
+		</div>
+	</div>
+
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 
@@ -16,7 +32,7 @@ get_header(); ?>
 						</a>
 					</div>
 
-					<div class="menu open">
+					<div class="menu">
 						<ul>
 							<li>
 								<a href="#" title="">ABOUT ME</a>

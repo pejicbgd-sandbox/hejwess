@@ -67,7 +67,7 @@ get_header(); ?>
 					</div>
 
 					<div class="content">
-						<ul>
+						<ul class="main-menu">
 							<li>
 								<a href="#" title="">ABOUT ME</a>
 							</li>
@@ -350,8 +350,8 @@ get_header(); ?>
 							<span><a href="#" title="">Performances</a></span>
 							<span><a href="#" title="">Light</a></span>
 
-							<div>
-								<img src="" alt="" />
+							<div class="arrow">
+								<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/arrow-full.png" alt="" />
 								<span>find out more</span>
 							</div>
 						</div>
@@ -371,8 +371,8 @@ get_header(); ?>
 							<span><a href="#" title="">Performances</a></span>
 							<span><a href="#" title="">Light</a></span>
 
-							<div>
-								<img src="" alt="" />
+							<div class="arrow">
+								<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/arrow-full.png" alt="" />
 								<span>find out more</span>
 							</div>
 						</div>
@@ -390,8 +390,8 @@ get_header(); ?>
 							<span><a href="#" title="">Light Series</a></span>
 							<span><a href="#" title="">Lectures</a></span>
 
-							<div>
-								<img src="" alt="" />
+							<div class="arrow">
+								<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/arrow-full.png" alt="" />
 								<span>find out more</span>
 							</div>
 						</div>
@@ -415,7 +415,8 @@ get_header(); ?>
 
 						<div class="right col-xs-12 col-md-6">
 							<p>
-							blablabla
+								Quiero compartir contigo tendencias actuales, estrategias, herramientas, etc. 
+								Suscribete y forma parte activa de nuestra comunidad.
 							</p>
 						</div>
 					</div>
@@ -477,7 +478,7 @@ get_header(); ?>
 						<div class="story">
 							<h3>SUBMIT YOUR STORY</h3>
 							<p class="submit-story">
-								<img src="" alt="" />
+								<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/arrow-black.png" alt="" />
 								<span>I would like to submit my story<span>
 							</p>
 						</div>
@@ -488,13 +489,20 @@ get_header(); ?>
 				<div class="same thirteen">
 						<div class="hipster">
 							<div class="hipster-wrap">
-								<h3>subscribe to my newsletter</h3>
+								<h3>Suscribete a mi newsletter</h3>
 								<p>
-									simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
-									dummy text ever since the 1500s, when an unknown
+									A través de mi blog y foro especializado 
+									quiero compartir contigo tendencias actuales, 
+									estrategias, herramientas, etc. Suscríbete y forma parte activa de nuestra comunidad. Puedes hacerme llegar cualquier pregunta 
+									comentario que te haya surgido referente al 
+									contenido que hayas leido.  Recibe todas las novedades aquí publicadas a través de mi 
+									boletín sem anal. 
 								</p>
 							</div>
-							<span>me gustaria and some shit</span>
+							<div>
+								<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/arrow-black.png" alt="" />
+								<span>Me gustaría recibir el newsletter</span>
+							</div>
 						</div>
 
 						<div class="hipster-img-wrap">
@@ -511,12 +519,13 @@ get_header(); ?>
 				<div class="row">
 					<div class="nine">
 						<div class="left col-xs-12 col-md-6">
-							<h2>Hablamos</h2>
+							<h2>¿hablamos? <br />Preguntame lo que <br />quieras</h2>
 						</div>
 
 						<div class="right col-xs-12 col-md-6">
 							<p>
-							blablabla
+								A través de esta innovadora herramienta, estaré encantado de responderte 
+								personalmente, cualquier consulta que tengas en tiempo real.
 							</p>
 						</div>
 					</div>
@@ -525,31 +534,38 @@ get_header(); ?>
 				<div class="row">
 					<div class="three">
 						<div class="left col-xs-12 col-md-6">
-							Innovacion organizational
+							<a href="" title="">
+								<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/arrow-black.png" alt="" />
+								Pregunta me lo que queres
+							</a>
 						</div>
 
 						<div class="right col-xs-12 col-md-6">
-							Emprideiemnto exidos
+							<a href="" title="">
+								<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/arrow-black.png" alt="" />
+								Discutamos el tema a través del foro
+							</a>
 						</div>
 					</div>
 				</div>
 
 				<div class="parallax top">
 					<section data-speed="5" class="testimonias">
-						<h1>testimonias</hi>
+						<h1>testimonios</h1>
 					</section>
 				</div>
 
 				<div class="row">
 					<div class="nine">
 						<div class="left col-xs-12 col-md-6">
-							<h2>testimonios</h2>
+							<h2>testimonios de algunos clientes</h2>
 						</div>
 
 						<div class="right col-xs-12 col-md-6">
-							<p>
-							blablabla
-							</p>
+							<div class="slider">
+								<div>I am a slide.</div>
+								<div>I am another slide.</div>
+							</div>
 						</div>
 					</div>
 				</div>

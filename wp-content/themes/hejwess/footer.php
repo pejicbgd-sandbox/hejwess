@@ -101,6 +101,7 @@
 <?php wp_footer(); ?>
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="<?php echo esc_url( get_template_directory_uri() ); ?>/js/slider.min.js"></script>
 <script src="<?php echo esc_url( get_template_directory_uri() ); ?>/js/main.js"></script>
 </body>
 </html>

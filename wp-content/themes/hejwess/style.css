@@ -135,10 +135,13 @@ a img {
 	 z-index: 9;
  }
 .small-wrap {
-	display: flex;
+	display: none;
 	justify-content: space-between;
 	align-items: center;
 	margin: 7px 50px 0 50px;
+}
+.small-wrap.visible {
+	display: flex;
 }
 .small-wrap span {
 	font-size: 16px;
@@ -431,6 +434,7 @@ a img {
 .nine p {
   font-size: 20px;
   width: 350px;
+  text-align: left;
 }
 .bottom-space {
   margin-bottom: 50px;
@@ -443,17 +447,20 @@ a img {
 }
 .ten h2 {
   font-size: 20px;
+  margin-top: 15px;
+  margin-bottom: 10px;
 }
 .ten p {
   margin-bottom: 10px;
   font-size: 18px;
+  text-align: left;
 }
 .ten span {
 	display: inline-block;
-  margin-right: 10px;
-  font-size: 16px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	font-size: 16px;
 }
-
 .ten span a {
 	color: black;
 	border-bottom: 1px solid #e0de00;
@@ -466,12 +473,15 @@ a img {
 .ten .head {
   width: 100%;
 }
+.ten .arrow img {
+	width: 40px;
+}
 .twelve .section:nth-child(odd) {
 	border-right: 1px solid #ebebeb;
 }
 .twelve .section {
 	text-align: center;
-	/height: 255px;
+	height: 255px;
 	padding: 10px 0;
 	border-top: 1px solid #ebebeb;
 }
@@ -529,7 +539,7 @@ a img {
 	text-transform: uppercase;
 }
 .thirteen .hipster-wrap {
-	width: 50%;
+	width: 55%;
 	margin: 0 auto;
 	flex: 1;
 	display: flex;
@@ -606,9 +616,73 @@ a img {
 	text-decoration: none;
 	border-bottom: 2px solid #ebebeb;
 }
-
 /**
-* 3 - Footer
+* 3 - Slider
+*
+*/
+.bx-wrapper .bx-prev {
+    left: 10px;
+    background: url(img/slider-left.png) no-repeat;
+}
+.bx-wrapper .bx-next {
+    right: 10px;
+    background: url(img/slider-right.png) no-repeat;
+}
+.bx-prev,
+.bx-next {
+	position: absolute;
+    margin-top: -16px;
+    outline: 0;
+    width: 53px;
+    height: 100px;
+    text-indent: -9999px;
+    z-index: 9999;
+}
+.bx-controls a:visited {
+	border: none;
+}
+.bx-wrapper .bx-pager {
+    text-align: center;
+    font-size: .85em;
+    font-family: Arial;
+    font-weight: bold;
+    color: #666;
+    padding-top: 20px;
+}
+.bx-wrapper .bx-pager,
+.bx-wrapper .bx-controls-auto {
+    position: absolute;
+    bottom: -30px;
+    width: 100%;
+}
+.bx-wrapper .bx-pager-item {
+    font-size: 0;
+    line-height: 0;
+}
+.bx-wrapper .bx-pager-item,
+.bx-wrapper .bx-controls-auto .bx-controls-auto-item {
+    display: inline-block;
+    vertical-align: bottom;
+}
+.bx-wrapper .bx-pager.bx-default-pager a:hover,
+.bx-wrapper .bx-pager.bx-default-pager a.active,
+.bx-wrapper .bx-pager.bx-default-pager a:focus {
+    background: #e0de00;
+}
+.bx-wrapper .bx-pager.bx-default-pager a {
+    background: #666;
+    text-indent: -9999px;
+    display: block;
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    outline: 0;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+/**
+* 4 - Footer
 *
 */
 footer {

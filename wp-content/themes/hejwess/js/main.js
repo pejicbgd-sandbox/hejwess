@@ -14,26 +14,55 @@
   });
 
   $('.slider').bxSlider();
-  
+
   var menu = $('.main-menu')[0];
   var $smallMenu = $('.menu-small');
-  recalculateMenu();
+  recalculateAnimation();
 
   $(window).on('scroll', function() {
-    recalculateMenu();
+    recalculateAnimation();
   });
 
-  function recalculateMenu() {
-    var rect = menu.getBoundingClientRect();
-    var elemTop = rect.top;
-    var elemBottom = rect.bottom;
+  function recalculateAnimation() {
+    var menuRect = menu.getBoundingClientRect();
+    var menuTop = menuRect.top;
+    var menuBottom = menuRect.bottom;
 
-    var isVisible = elemTop < window.innerHeight && elemBottom >= 0;
 
-    if (isVisible) {
+    var isMenuVisible = menuTop < window.innerHeight && menuBottom >= 0;
+    if (isMenuVisible) {
         $smallMenu.slideUp(400);
+        $('.small-wrap').removeClass('visible');
+
     } else {
         $smallMenu.slideDown(400);
+        $('.small-wrap').addClass('visible');
     }
   }
+
+var $slideup = $('.slideme');
+var $window = $(window);
+
+function check_if_in_view() {
+  var window_height = $window.height();
+  var window_top_position = $window.scrollTop();
+  var window_bottom_position = (window_top_position + window_height);
+
+  $.each($slideup, function() {
+    var $element = $(this);
+    var element_height = $element.outerHeight();
+    var element_top_position = $element.offset().top;
+    var element_bottom_position = (element_top_position + element_height);
+
+    //check to see if this current container is within viewport
+    if ((element_bottom_position >= window_top_position) &&
+      (element_top_position <= window_bottom_position) &&
+      (!$element.hasClass('in-view'))) {
+      $element.addClass('in-view');
+    }
+  });
+}
+
+$window.on('scroll resize', check_if_in_view);
+
 } )( jQuery );

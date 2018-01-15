@@ -126,10 +126,10 @@ get_header(); ?>
 				<div class="row">
 					<div class="two">
 						<div class="left col-xs-12 col-md-6">
-							<h2>what is this all about?<br /><span>vision<span></h2>
+							<h2>what is this all about?<br /><span class="typeme">vision<span></h2>
 						</div>
 
-						<div class="right col-xs-12 col-md-6">
+						<div class="slideme right col-xs-12 col-md-6">
 						El potencial autentico, la fuerza
 						inspiradora de nuestro éxito;
 						reside en el reconocimiento de
@@ -171,7 +171,7 @@ get_header(); ?>
 							<h2>What we do?</h2>
 						</div>
 
-						<div class="right col-xs-12 col-md-6">
+						<div class="slideme right col-xs-12 col-md-6">
 							El potencial autentico, la fuerza
 							inspiradora de nuestro éxito;
 							reside en el reconocimiento de
@@ -183,27 +183,35 @@ get_header(); ?>
 				<div class="row">
 					<div class="five">
 						<div class="section col-xs-12 col-md-6">
-							<img src="" alt="" />
-							<h3>Emprendiendo Exitos</h3>
-							<h6>¿De qué manera creas tú solida marca personal?</h6>
+							<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/exitos.png" alt="Emprendiendo Exitos" />
+							<div class="headers">
+								<h3>Emprendiendo Exitos</h3>
+								<h6>¿De qué manera creas tú solida marca personal?</h6>
+							</div>
 						</div>
 
 						<div class="section col-xs-12 col-md-6">
-							<img src="" alt="" />
-							<h3>Mejora Continua Organizacional</h3>
-							<h6>¿Como afrontar de la mejor manera un proceso<br /> derestructuracion organizacional?</h6>
+							<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/coaching.png" alt="Coaching Sistémico" />
+							<div class="headers">
+								<h3>Coaching Sistémico</h3>
+								<h6>¿Para que vivir en tu realidad actual<br />de resignacion al cambio?</h6>
+							</div>
 						</div>
 
 						<div class="section col-xs-12 col-md-6">
-							<img src="" alt="" />
-							<h3>Coaching Sistémico</h3>
-							<h6>¿Para que vivir en tu realidad actual<br />de resignacion al cambio?</h6>
+							<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/mejores.png" alt="Mejora Continua Organizacional" />
+							<div class="headers">
+								<h3>Mejora Continua Organizacional</h3>
+								<h6>¿Como afrontar de la mejor manera un proceso<br /> derestructuracion organizacional?</h6>
+							</div>
 						</div>
 
 						<div class="section col-xs-12 col-md-6">
-							<img src="" alt="" />
-							<h3>Innovatión en la Gestión de Proyectos</h3>
-							<h6>¿Cuales son los principios claves para <br />generar un trabajo optimo por objectivos?</h6>
+							<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/inovacion.png" alt="Innovatión en la Gestión de Proyectos" />
+							<div class="headers">
+								<h3>Innovatión en la Gestión <br />de Proyectos</h3>
+								<h6>¿Cuales son los principios claves para <br />generar un trabajo optimo por objectivos?</h6>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -212,14 +220,18 @@ get_header(); ?>
 
 					<div class="six">
 						<div class="left col-xs-12 col-md-6">
-							<h2>who am I?<br /><span>Idealista<span></h2>
-							<p>
+							<h2>who am I?<br /><span class="typeme">Idealista<span></h2>
+							<p class="slideme">
 								Soy Consultor Estratégico y Facilitador Sistémico para la mejora continua y la gestión
 								creativa de la innovación. Me dedico a apoyar a emprendedores y organizaciones, hacia una transformación
 								sistémica exitosa; facilitando potenciar sus talentos, ayudándolos a descubrir nuevas herramientas,
 								impulsando sus recursos esenciales.
-								<img src="" alt="" />
-								<span class="readmore">find out more</span>
+								<span class="readmore">
+									<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/arrow-full.png" alt="Find out more" />
+									<a href="" title="">
+										find out more
+									</a>
+								</span>
 							</p>
 						</div>
 
@@ -237,7 +249,7 @@ get_header(); ?>
 
 						<div class="right col-xs-12 col-md-6">
 							<h2>¿De que manera lo hago?<br />“Aprendiendo a emprender”</h2>
-							<p>
+							<p class="slideme">
 								Contribuyendo a través de mi Consultoría
 								Estratégica y Facilitación Sistémica, teniendo
 								como objetivo principal apoyar y acompañar
@@ -302,8 +314,10 @@ get_header(); ?>
 						</div>
 					</div>
 					<div class="wrap col-xs-12 col-md-4">
-						<img src="" alt="" />
-						<a href="#" alt="">find out more</a>
+						<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/arrow-full.png" alt="Find out more" />
+						<a href="" alt="">
+							find out more
+						</a>
 					</div>
 				</div>
 
@@ -322,7 +336,7 @@ get_header(); ?>
 						</div>
 
 						<div class="right col-xs-12 col-md-6">
-							<p>
+							<p class="slideme">
 							"Echa un vistazo y participa con nosotros de diversas actividades tales como: Talleres,
 							Seminarios, Grupos de estudios, Formaciones,…etc."
 							</p>
@@ -332,7 +346,7 @@ get_header(); ?>
 
 				<div class="line"></div>
 
-				<div class="row bottom-space">
+				<div class="slideme row bottom-space">
 					<div class="ten">
 						<div class="col-xs-12 col-md-4">
 							<img class="head" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/digital.png" alt="" />
@@ -351,20 +365,24 @@ get_header(); ?>
 							<span><a href="#" title="">Light</a></span>
 
 							<div class="arrow">
-								<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/arrow-full.png" alt="" />
-								<span>find out more</span>
+								<span>
+									<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/arrow-full.png" alt="" />
+									<a href="" title="">
+										find out more
+									</a>
+								</span>
 							</div>
 						</div>
-						<div class="col-xs-12 col-md-4">
+						<div class="slideme col-xs-12 col-md-4">
 							<img class="head" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/digital.png" alt="" />
 							<h2>Discover Your Light</h2>
 							<p>January 27, 2018<br />at Barcelona</p>
 
 							<p>
-							Introducing the Centered series. Join Ilona Holland on January 27
-							for the first workshop in the Centered series, Discover your Light.
-							Centered is a program series that
-							embraces the creative practices...
+								Introducing the Centered series. Join Ilona Holland on January 27
+								for the first workshop in the Centered series, Discover your Light.
+								Centered is a program series that
+								embraces the creative practices...
 							</p>
 
 							<span><a href="#" title="">Education</a></span>
@@ -372,11 +390,15 @@ get_header(); ?>
 							<span><a href="#" title="">Light</a></span>
 
 							<div class="arrow">
-								<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/arrow-full.png" alt="" />
-								<span>find out more</span>
+								<span>
+									<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/arrow-full.png" alt="" />
+									<a href="" title="">
+										find out more
+									</a>
+								</span>
 							</div>
 						</div>
-						<div class="col-xs-12 col-md-4">
+						<div class="slideme col-xs-12 col-md-4">
 							<img class="head" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/moms.png" alt="" />
 							<h2>Nizar Mamdani</h2>
 							<p>March 29, 2018<br />at Barcelona</p>
@@ -391,8 +413,12 @@ get_header(); ?>
 							<span><a href="#" title="">Lectures</a></span>
 
 							<div class="arrow">
-								<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/arrow-full.png" alt="" />
-								<span>find out more</span>
+								<span>
+									<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/arrow-full.png" alt="" />
+									<a href="" title="">
+										find out more
+									</a>
+								</span>
 							</div>
 						</div>
 
@@ -414,8 +440,8 @@ get_header(); ?>
 						</div>
 
 						<div class="right col-xs-12 col-md-6">
-							<p>
-								Quiero compartir contigo tendencias actuales, estrategias, herramientas, etc. 
+							<p class="slideme">
+								Quiero compartir contigo tendencias actuales, estrategias, herramientas, etc.
 								Suscribete y forma parte activa de nuestra comunidad.
 							</p>
 						</div>
@@ -427,7 +453,7 @@ get_header(); ?>
 						<div class="section col-xs-12 col-md-6">
 							<div class="col-xs-12">
 								<div class="wrap">
-									<img height="150" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/ideas.png" alt="" />
+									<img height="130" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/ideas.png" alt="" />
 									<div class="text col-xs-12">
 										<h3>Where do ideas come from?</h3>
 										<h6>Introducing the centered series. Join Ilona Holland on January 27 for the first workshop in the Centered series...</h6>
@@ -443,7 +469,7 @@ get_header(); ?>
 						<div class="section col-xs-12 col-md-6">
 							<div class="col-xs-12">
 								<div class="wrap">
-									<img height="150" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/success.png" alt="" />
+									<img height="130" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/success.png" alt="" />
 									<div class="text col-xs-12">
 										<h3>What is success?</h3>
 										<h6>Introducing the centered series. Join Ilona Holland on January 27 for the first workshop in the Centered series...</h6>
@@ -479,7 +505,11 @@ get_header(); ?>
 							<h3>SUBMIT YOUR STORY</h3>
 							<p class="submit-story">
 								<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/arrow-black.png" alt="" />
-								<span>I would like to submit my story<span>
+								<span>
+									<a href="" title="">
+										I would like to submit my story
+									</a>
+								<span>
 							</p>
 						</div>
 				</div>
@@ -487,24 +517,50 @@ get_header(); ?>
 				<div class="line"></div>
 
 				<div class="same thirteen">
-						<div class="hipster">
+						<!--<div class="hipster">
 							<div class="hipster-wrap">
 								<h3>Suscribete a mi newsletter</h3>
-								<p>
-									A través de mi blog y foro especializado 
-									quiero compartir contigo tendencias actuales, 
-									estrategias, herramientas, etc. Suscríbete y forma parte activa de nuestra comunidad. Puedes hacerme llegar cualquier pregunta 
-									comentario que te haya surgido referente al 
-									contenido que hayas leido.  Recibe todas las novedades aquí publicadas a través de mi 
-									boletín sem anal. 
+								<p class="slideme">
+									A través de mi blog y foro especializado
+									quiero compartir contigo tendencias actuales,
+									estrategias, herramientas, etc. Suscríbete y forma parte activa de nuestra comunidad. Puedes hacerme llegar cualquier pregunta
+									comentario que te haya surgido referente al
+									contenido que hayas leido.  Recibe todas las novedades aquí publicadas a través de mi
+									boletín sem anal.
 								</p>
 							</div>
 							<div>
-								<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/arrow-black.png" alt="" />
-								<span>Me gustaría recibir el newsletter</span>
+								<p>
+									<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/arrow-black.png" alt="" />
+									<span>
+										<a href="" title="">
+											Me gustaría recibir el newsletter
+										</a>
+									</span>
+								</p>
 							</div>
+						</div>-->
+						<div class="story">
+							<div class="hipster-wrap">
+								<h5>Suscribete a mi newsletter</h5>
+								<span class="slideme">
+									A través de mi blog y foro especializado
+									quiero compartir contigo tendencias actuales,
+									estrategias, herramientas, etc. Suscríbete y forma parte activa de nuestra comunidad. Puedes hacerme llegar cualquier pregunta
+									comentario que te haya surgido referente al
+									contenido que hayas leido.  Recibe todas las novedades aquí publicadas a través de mi
+									boletín sem anal.
+								</span>
+							</div>
+							<p class="submit-story">
+								<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/arrow-black.png" alt="" />
+								<span>
+									<a href="" title="">
+										Me gustaría recibir el newsletter
+									</a>
+								<span>
+							</p>
 						</div>
-
 						<div class="hipster-img-wrap">
 							<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/hipster.png" alt="" />
 						</div>
@@ -523,8 +579,8 @@ get_header(); ?>
 						</div>
 
 						<div class="right col-xs-12 col-md-6">
-							<p>
-								A través de esta innovadora herramienta, estaré encantado de responderte 
+							<p class="slideme">
+								A través de esta innovadora herramienta, estaré encantado de responderte
 								personalmente, cualquier consulta que tengas en tiempo real.
 							</p>
 						</div>

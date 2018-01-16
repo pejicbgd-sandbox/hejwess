@@ -33,29 +33,35 @@ get_header(); ?>
 					</div>
 
 					<div class="menu">
-						<ul>
-							<li>
-								<a href="#" title="">ABOUT ME</a>
-							</li>
-							<li>
-								<a href="#" title="">SERVICES</a>
-							</li>
-							<li>
-								<a href="#" title="">EVENTS</a>
-							</li>
-							<li>
-								<a href="#" title="">BLOG</a>
-							</li>
-							<li>
-								<a href="#" title="">CONTACT</a>
-							</li>
-							<li>
-								<a href="#" title="">Login</a>
-							</li>
-							<li>
-								<a href="#" title="">Search</a>
-							</li>
-						</ul>
+						<div class="menu-wrap">
+							<svg height="80" width="80" class="close">
+								<line x1="0" y1="0" x2="80" y2="80"></line>
+								<line x1="0" y1="80" x2="80" y2="0"></line>
+							</svg>
+							<ul>
+								<li>
+									<a href="#" title="">ABOUT ME</a>
+								</li>
+								<li>
+									<a href="#" title="">SERVICES</a>
+								</li>
+								<li>
+									<a href="#" title="">EVENTS</a>
+								</li>
+								<li>
+									<a href="#" title="">BLOG</a>
+								</li>
+								<li>
+									<a href="#" title="">CONTACT</a>
+								</li>
+								<li>
+									<a href="#" title="">Login</a>
+								</li>
+								<li>
+									<a href="#" title="">Search</a>
+								</li>
+							</ul>
+						</div>
 					</div>
 
 
@@ -91,67 +97,49 @@ get_header(); ?>
 							</li>
 						</ul>
 
-						<div>
-							<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/eye.png" alt="Eye" />
+						<div class="entry-text">
+							<h2>tener vision es el <br/>primer paso para <br />el crecimento <br />estrat&#201;gico</h2>
 							<h1>Strategic Leadership is an agency that will make you grow.</h1>
-						</div>
-
-						<div class="social">
-								<a href="#" title="Facebook">
-									<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/f.png" alt="" />
-								</a>
-								<a href="#" title="Twitter">
-									<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/t.png" alt="" />
-								</a>
-								<a href="#" title="Linkedin">
-									<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/l.png" alt="" />
-								</a>
-								<a href="#" title="Instagram">
-									<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/i.png" alt="" />
-								</a>
-								<a href="#" title="Youtube">
-									<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/y.png" alt="" />
-								</a>
 						</div>
 
 					</div>
 			</div>
 
-			<div class="parallax">
-				<section data-speed="5" class="aim">
-    			<h1>Aim</hi>
-  			</section>
+			<div class="main-wrap">
+				<div class="parallax">
+					<section data-speed="2" class="aim">
+						<h1>Aim</hi>
+					</section>
+				</div>
 			</div>
 
-				<div class="row">
-					<div class="two">
-						<div class="left col-xs-12 col-md-6">
-							<h2>what is this all about?<br /><span class="typeme">vision<span></h2>
-						</div>
+				<div class="row two">
+					<div class="left col-xs-12 col-md-6">
+						<h2>what is this all about?<br /><span class="typeme">vision<span></h2>
+					</div>
 
-						<div class="slideme right col-xs-12 col-md-6">
-						El potencial autentico, la fuerza
-						inspiradora de nuestro éxito;
-						reside en el reconocimiento de
-						nuestras herramientas y recursos,
-						así como en nuestra capacidad de
-						reconexión consciente con nuestro
-						verdadero propósito.
-						</div>
+					<div class="slideme right col-xs-12 col-md-6">
+					El potencial autentico, la fuerza
+					inspiradora de nuestro éxito;
+					reside en el reconocimiento de
+					nuestras herramientas y recursos,
+					así como en nuestra capacidad de
+					reconexión consciente con nuestro
+					verdadero propósito.
 					</div>
 				</div>
 
 				<div class="row">
 					<div class="three">
 						<div class="left col-xs-12 col-md-6">
-							<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/arrow-right.png" alt="Arrow" />
+							<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/arrow-black.png" alt="Arrow" />
 							<a href="" title="">
 								Innovacion organizational
 							</a>
 						</div>
 
 						<div class="right col-xs-12 col-md-6">
-							<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/arrow-right.png" alt="Arrow" />
+							<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/arrow-black	.png" alt="Arrow" />
 							<a href="" title="">
 								Emprideiemnto exidos
 							</a>
@@ -160,7 +148,7 @@ get_header(); ?>
 				</div>
 
 				<div class="parallax fourth">
-					<section data-speed="5" class="services">
+					<section data-speed="2" class="services">
 						<h1>services</hi>
 					</section>
 				</div>
@@ -266,65 +254,67 @@ get_header(); ?>
 				<div class="row eight first">
 					<div class="line"></div>
 					<div class="wrap col-xs-12 col-md-4">
-						<div>
+						<div class="flex-wrap">
 							<span>1</span>
 							<p>Metodologías Sistémicas<br />Innovadovras</p>
 						</div>
 					</div>
 					<div class="wrap col-xs-12 col-md-4">
-						<div>
+						<div class="flex-wrap">
 							<span>2</span>
-							<p>metodologiast neki racq</p>
+							<p>t&#201;cnicas y t&#193;cticas parar <br />el liderazgo estrat&#201;gico</p>
 						</div>
 					</div>
 					<div class="wrap col-xs-12 col-md-4 clearfix">
-						<div>
+						<div class="flex-wrap">
 							<span>3</span>
-							<p>metodologiast neki racq</p>
+							<p>herramientas de dise&#209;o<br />creativo y colaborativo</p>
 						</div>
 					</div>
 				</div>
 				<div class="row eight">
 					<div class="line"></div>
 					<div class="wrap col-xs-12 col-md-4">
-						<div>
+						<div class="flex-wrap">
 							<span>4</span>
-							<p>metodologiast neki racq</p>
+							<p>inteligencia emocional</p>
 						</div>
 					</div>
 					<div class="wrap col-xs-12 col-md-4">
-						<div>
+						<div class="flex-wrap">
 							<span>5</span>
-							<p>metodologiast neki racq</p>
+							<p>coaching syst&#201;mico</p>
 						</div>
 					</div>
 					<div class="wrap col-xs-12 col-md-4">
-						<div>
+						<div class="flex-wrap">
 							<span>6</span>
-							<p>metodologiast neki racq</p>
+							<p>seminarios Y talleres<br />(online + offline)</p>
 						</div>
 					</div>
 				</div>
 				<div class="row eight">
 					<div class="line"></div>
 					<div class="wrap col-xs-12 col-md-4">
-						<div>
+						<div class="flex-wrap">
 							<span>7</span>
-							<p>metodologiast neki racq</p>
+							<p>productos y herramientas<br />concretas</p>
 						</div>
 					</div>
 					<div class="wrap col-xs-12 col-md-4">
-						<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/arrow-full.png" alt="Find out more" />
-						<a href="" alt="">
-							find out more
-						</a>
+						<div class="arrow-wrap">
+							<img height="24" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/arrow-full.png" alt="Find out more" />
+							<a href="" alt="">
+								find out more
+							</a>
+						</div>
 					</div>
 				</div>
 
 				<p class="space">Upcoming events</p>
 
 				<div class="parallax">
-					<section data-speed="5" class="events">
+					<section data-speed="2" class="events">
 						<h1>events</hi>
 					</section>
 				</div>
@@ -354,10 +344,10 @@ get_header(); ?>
 							<p>January 27, 2018<br />at Barcelona</p>
 
 							<p>
-							Introducing the Centered series. Join Ilona Holland on January 27
-							for the first workshop in the Centered series, Discover your Light.
-							Centered is a program series that
-							embraces the creative practices...
+								Introducing the Centered series. Join Ilona Holland on January 27
+								for the first workshop in the Centered series, Discover your Light.
+								Centered is a program series that
+								embraces the creative practices...
 							</p>
 
 							<span><a href="#" title="">Education</a></span>
@@ -428,7 +418,7 @@ get_header(); ?>
 				<div class="line"></div>
 
 				<div class="parallax top">
-					<section data-speed="5" class="blog">
+					<section data-speed="2" class="blog">
 						<h1>blog</hi>
 					</section>
 				</div>
@@ -517,29 +507,6 @@ get_header(); ?>
 				<div class="line"></div>
 
 				<div class="same thirteen">
-						<!--<div class="hipster">
-							<div class="hipster-wrap">
-								<h3>Suscribete a mi newsletter</h3>
-								<p class="slideme">
-									A través de mi blog y foro especializado
-									quiero compartir contigo tendencias actuales,
-									estrategias, herramientas, etc. Suscríbete y forma parte activa de nuestra comunidad. Puedes hacerme llegar cualquier pregunta
-									comentario que te haya surgido referente al
-									contenido que hayas leido.  Recibe todas las novedades aquí publicadas a través de mi
-									boletín sem anal.
-								</p>
-							</div>
-							<div>
-								<p>
-									<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/arrow-black.png" alt="" />
-									<span>
-										<a href="" title="">
-											Me gustaría recibir el newsletter
-										</a>
-									</span>
-								</p>
-							</div>
-						</div>-->
 						<div class="story">
 							<div class="hipster-wrap">
 								<h5>Suscribete a mi newsletter</h5>
@@ -552,14 +519,14 @@ get_header(); ?>
 									boletín sem anal.
 								</span>
 							</div>
-							<p class="submit-story">
-								<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/arrow-black.png" alt="" />
-								<span>
-									<a href="" title="">
-										Me gustaría recibir el newsletter
-									</a>
-								<span>
-							</p>
+							<a href="" title="" class="shorter">
+								<p class="submit-story all">
+									<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/arrow-black.png" alt="" />
+									<span>
+											Me gustaría recibir el newsletter
+									<span>
+								</p>
+							</a>
 						</div>
 						<div class="hipster-img-wrap">
 							<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/hipster.png" alt="" />
@@ -567,7 +534,7 @@ get_header(); ?>
 				</div>
 
 				<div class="parallax top">
-					<section data-speed="5" class="talk">
+					<section data-speed="2" class="talk">
 						<h1>talk</hi>
 					</section>
 				</div>
@@ -606,7 +573,7 @@ get_header(); ?>
 				</div>
 
 				<div class="parallax top">
-					<section data-speed="5" class="testimonias">
+					<section data-speed="2" class="testimonias">
 						<h1>testimonios</h1>
 					</section>
 				</div>
@@ -614,13 +581,33 @@ get_header(); ?>
 				<div class="row">
 					<div class="nine">
 						<div class="left col-xs-12 col-md-6">
-							<h2>testimonios de algunos clientes</h2>
+							<h2>testimonios<br /> de algunos <br />clientes</h2>
 						</div>
 
 						<div class="right col-xs-12 col-md-6">
 							<div class="slider">
-								<div>I am a slide.</div>
-								<div>I am another slide.</div>
+								<div>
+									<div class="testimony">
+										<p>
+											"M&#225;s alla del alcance del mi objetivo que me plantee al inico de las sessiones, mi proceso del coaching
+											con Daniel ha sido un auto-aprendizaje personal, transformador y muy enriquesedor. M&#225;s alla del alcance del mi objetivo que me plantee al
+											inico de las sessiones, mi proceso del coaching	con Daniel ha sido un auto-aprendizaje personal, transformador y muy enriquesedor."
+										</p>
+										<span class="testimony-by">Alejandro Ortiz</span>
+										<span>emprendedor</span>
+									</div>
+								</div>
+								<div>
+									<div class="testimony">
+										<p>
+											"M&#225;s alla del alcance del mi objetivo que me plantee al inico de las sessiones, mi proceso del coaching
+											con Daniel ha sido un auto-aprendizaje personal, transformador y muy enriquesedor. M&#225;s alla del alcance del mi objetivo que me plantee al
+											inico de las sessiones, mi proceso del coaching	con Daniel ha sido un auto-aprendizaje personal, transformador y muy enriquesedor."
+										</p>
+										<span class="testimony-by">Alejandro Ortiz</span>
+										<span>emprendedor</span>
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>

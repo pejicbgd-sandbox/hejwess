@@ -9,7 +9,7 @@
       });
   });
 
-  $('.small-wrap').find('span').on('click', function() {
+  $('.small-wrap span, .close').on('click', function() {
       $('.menu').slideToggle(400);
   });
 
@@ -58,7 +58,7 @@ function check_if_in_view() {
     if ((element_bottom_position >= window_top_position) &&
       (element_top_position <= window_bottom_position) &&
       (!$element.hasClass('in-view'))) {
-      $element.addClass('in-view');
+      $element.delay(300).addClass('in-view');
     }
   });
 }

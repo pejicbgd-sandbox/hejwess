@@ -19,9 +19,27 @@
 	<script src="<?php echo esc_url( get_template_directory_uri() ); ?>/js/html5.js"></script>
 	<![endif]-->
 	<link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
 	<?php wp_head(); ?>
 </head>
 
 <body>
 <div id="page">
 	<div id="main-content">
+		<div class="social">
+				<a href="#" title="Facebook">
+					<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/f.png" alt="" />
+				</a>
+				<a href="#" title="Twitter">
+					<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/t.png" alt="" />
+				</a>
+				<a href="#" title="Linkedin">
+					<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/l.png" alt="" />
+				</a>
+				<a href="#" title="Instagram">
+					<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/i.png" alt="" />
+				</a>
+				<a href="#" title="Youtube">
+					<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/y.png" alt="" />
+				</a>
+		</div>

@@ -67,8 +67,8 @@
 
 			<div class="col-xs-12 col-md-3">
 				<h4>Contact</h4>
-				<p>telefone 1<p>
-				<p>telefone 2<p>
+				<p>+34 625 36 42 67<p>
+				<p>+34 625 36 42 97<p>
 				<h3>Sign up for a newsletter</h3>
 				<form method="post" action="">
 					<input type="email" placeholder="Email address" name="email" required />

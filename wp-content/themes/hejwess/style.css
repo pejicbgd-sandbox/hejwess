@@ -190,14 +190,14 @@ a img {
 }
 .entry-text h2 {
 	font: 700 70px Anton, script;
-  text-align: center;
-  background: url("img/eye.png");
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-size: cover;
+	text-align: center;
+	background: url("img/eye.png");
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-size: cover;
 	text-transform: uppercase;
-  display: table-cell;
-  vertical-align: middle;
+	display: table-cell;
+	vertical-align: middle;
 	letter-spacing: 20px;
 }
 .splash {
@@ -320,10 +320,10 @@ a img {
  }
 .two h2,
 .four h2{
-  font-size: 40px;
+	font-size: 40px;
 	font-weight: bold;
-  width: 240px;
-  text-align: center;
+	width: 240px;
+	text-align: center;
 	font-family: Anton, sans-serif;
 	line-height: 47px;
 	letter-spacing: 1px;
@@ -331,12 +331,12 @@ a img {
  .six h2,
  .seven h2,
  .nine h2 {
-	 font-size: 40px;
-   text-align: center;
-   font-weight: bold;
-   font-family: Anton, sans-serif;
-   line-height: 47px;
-   letter-spacing: 1px;
+	font-size: 40px;
+	text-align: center;
+	font-weight: bold;
+	font-family: Anton, sans-serif;
+	line-height: 47px;
+	letter-spacing: 1px;
  }
  .seven h2 {
   width: 50%;
@@ -510,16 +510,16 @@ a img {
 }
 .eight .flex-wrap {
 	display: flex;
-  min-height: 80px;
+	min-height: 80px;
 	width: 250px;
 }
 .eight p {
 	font-size: 16px;
 	font-weight: bold;
-  text-transform: uppercase;
-  display: flex;
-  padding-left: 20px;
-  align-self: flex-end;
+	text-transform: uppercase;
+	display: flex;
+	padding-left: 20px;
+	align-self: flex-end;
 }
 .eight a {
   font-size: 16px;
@@ -699,7 +699,6 @@ a img {
 }
 
 .same .story p {
-	background-color: #e0de00;
 	padding: 15px 0;
   text-align: center;
   font-size: 18px;

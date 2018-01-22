@@ -123,23 +123,23 @@ a img {
 	 margin-right: 0;
  }
  .main-wrap {
-	 padding-left: 15px;
-	 padding-right: 15px;
+	padding-left: 30px;
+	padding-right: 30px;
  }
  html {
   font-family: 'Karla', sans-serif;
   background-color: white;
  }
  .menu-wrap {
-	 display: flex;
-	 align-items: center;
-	 min-height: calc(100vh - 40px);
+	display: flex;
+	align-items: center;
+	min-height: calc(100vh - 40px);
  }
  .close {
-	 stroke-width: 2px;
-	 stroke: #333;
-	 cursor: pointer;
-	 margin-left: 50px;
+	stroke-width: 2px;
+	stroke: #333;
+	cursor: pointer;
+	margin-left: 50px;
  }
  .menu-small {
 	 height: 40px;
@@ -153,7 +153,7 @@ a img {
 	display: none;
 	justify-content: space-between;
 	align-items: center;
-	margin: 7px 50px 0 50px;
+	margin: 7px 35px 0 0;
 }
 .small-wrap.visible {
 	display: flex;
@@ -265,7 +265,7 @@ a img {
 	align-items: center;
 	position: fixed;
 	height: 100vh;
-	width: 35px;
+	width: 30px;
  	right: 0;
 	z-index: 9999999999;
 	background-color: white;
@@ -293,22 +293,34 @@ a img {
 	font-size: 211px;
 }
 .aim {
-	background: url("img/aim.png") 50% 0 repeat fixed; min-height: 1000px;
+	background: url("img/aim.png") repeat fixed; 
+	min-height: 1000px;
+	background-size: cover;
 }
 .services {
-	background: url("img/services.png") 50% 0 repeat fixed; min-height: 1000px;
+	background: url("img/services.png") 100% 100% repeat fixed;
+	min-height: 1000px;
+	background-size: cover;
 }
 .events {
-	background: url("img/events.png") 50% 0 repeat fixed; min-height: 1000px;
+	background: url("img/events.png") repeat fixed;
+	min-height: 1000px;
+	background-size: cover;
 }
 .blog {
-	background: url("img/blog.png") 50% 0 repeat fixed; min-height: 1000px;
+	background: url("img/blog.png") repeat fixed;
+	min-height: 1000px;
+	background-size: cover;
 }
 .talk {
-	background: url("img/talk.png") 50% 0 repeat fixed; min-height: 1000px;
+	background: url("img/talk.png") repeat fixed;
+	min-height: 1000px;
+	background-size: cover;
 }
 .testimonias {
-	background: url("img/testimonias.png") 50% 0 repeat fixed; min-height: 1000px;
+	background: url("img/testimonias.png") repeat fixed;
+	min-height: 1000px;
+	background-size: cover;
 }
 .space {
 		margin-top: 70px;
@@ -476,6 +488,7 @@ a img {
 	flex-direction: column;
 	align-self: center;
 	text-align: center;
+	margin-right: 15px;
 }
 
 .six,
@@ -700,18 +713,20 @@ a img {
 
 .same .story p {
 	padding: 15px 0;
-  text-align: center;
-  font-size: 18px;
-  text-transform: uppercase;
-  margin: 0 auto;
-  width: 100%;
+	text-align: center;
+	font-size: 18px;
+	text-transform: uppercase;
+	margin: 0 auto;
+	width: 100%;
 	cursor: pointer;
 	border-top: 1px solid rgb(210, 210, 210);
 	border-right: 1px solid rgb(210, 210, 210);
 	transition: all 300ms ease-in;
+	background-color: #e0de00;
 }
 .same .story p.all {
 	border: 1px solid rgb(210, 210, 210);
+	background-color: #e0de00;
 }
 .same .story a.shorter {
 	width: 80%;
@@ -786,12 +801,12 @@ a img {
 .bx-prev,
 .bx-next {
 	position: absolute;
-  top: calc(30% - 50px);
-  outline: 0;
-  width: 53px;
-  height: 100px;
-  text-indent: -9999px;
-  z-index: 9999;
+	top: calc(30% - 50px);
+	outline: 0;
+	width: 53px;
+	height: 100px;
+	text-indent: -9999px;
+	z-index: 9999;
 }
 .bx-controls a:visited,
 .bx-controls a:focus {

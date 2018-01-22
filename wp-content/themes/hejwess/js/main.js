@@ -4,7 +4,7 @@
 
       $(window).scroll(function() {
           var yPos = -($(window).scrollTop() / $bgobj.data('speed'));
-          var coords = '50% '+ yPos + 'px';
+          var coords = '0% '+ yPos + 'px';
           $bgobj.css({ backgroundPosition: coords });
       });
   });
@@ -64,5 +64,11 @@ function check_if_in_view() {
 }
 
 $window.on('scroll resize', check_if_in_view);
+
+new TypeIt('.typeme', {
+  strings: 'vision',
+  breakLines: false,
+  loop: true
+});
 
 } )( jQuery );

@@ -9,6 +9,10 @@
  */
 ?>
 
+<div class="main-wrap">
+	<div class="line black"></div>
+</div>
+
 	</div><!-- .site-content -->
 
 	<footer class="container">

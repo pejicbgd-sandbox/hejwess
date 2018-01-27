@@ -670,7 +670,7 @@ get_header(); ?>
 					</div>
 				</div>
 
-				<div class="line black"></div>
+				
 
 		</main><!-- .site-main -->
 	</div><!-- .content-area -->

@@ -113,22 +113,22 @@ get_header(); ?>
 				</div>
 			</div>
 
-				<div class="row two">
+				<div class="clearfix main-wrap two">
 					<div class="left col-xs-12 col-md-6">
 						<h2>¿DE QUÉ TRATA TODO ESTO?<br />
 							<span class="typeme">
-							Visión<br />
-							Propósito<br /> 
-							Descubrimiento<br />
-							Desarrollo<br />
-							Diseño<br />
-							Liderazgo<br />
-							Estrategias<br />
-							Colaboración<br />
-							Creatividad<br />
-							Networking<br />
-							Crecimiento<br />
-							Posicionamiento<br />
+								Visión<br />
+								Propósito<br /> 
+								Descubrimiento<br />
+								Desarrollo<br />
+								Diseño<br />
+								Liderazgo<br />
+								Estrategias<br />
+								Colaboración<br />
+								Creatividad<br />
+								Networking<br />
+								Crecimiento<br />
+								Posicionamiento
 							<span>
 						</h2>
 					</div>
@@ -142,27 +142,29 @@ get_header(); ?>
 					</div>
 				</div>
 
-				<div class="row">
-					<div class="main-wrap">
-						<div class="three">
-							<div class="left col-xs-12 col-md-6">
-								<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/arrow-black.png" alt="Arrow" />
-								<a href="" title="">
-									INNOVACIÓN ORGANIZACIONAL
-								</a>
-							</div>
+				<div class="clearfix">&nbsp</div>
 
-							<div class="right col-xs-12 col-md-6">
-								<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/arrow-black	.png" alt="Arrow" />
-								<a href="" title="">
-									EMPRENDIMIENTO EXITOSO
-								</a>
-							</div>
-						</div>
+				<div class="main-wrap three">	
+					<div class="left col-md-12 col-lg-6">
+						<span class="mb">
+							<img class="mb-arrow" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/arrow-black.png" alt="Arrow" />
+							<a href="" title="">
+								INNOVACIÓN ORGANIZACIONAL
+							</a>
+						</span>
+					</div>
+
+					<div class="right col-md-12 col-lg-6">
+						<span class="mb">
+							<img class="mb-arrow" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/arrow-black	.png" alt="Arrow" />
+							<a href="" title="">
+								EMPRENDIMIENTO EXITOSO
+							</a>
+						</span>
 					</div>
 				</div>
 
-				<div class="main-wrap">
+				<div class="clearfix main-wrap">
 					<div class="parallax fourth">
 						<section data-speed="2" class="services">
 							<h1>servicios</hi>
@@ -170,110 +172,124 @@ get_header(); ?>
 					</div>
 				</div>
 
-				<div class="row">
-					<div class="four">
-						<div class="left col-xs-12 col-md-6">
-							<h2>What we do?</h2>
+				<div class="clearfix main-wrap four">
+					<div class="left col-xs-12 col-md-6">
+						<h2>What we<br /> do?</h2>
+					</div>
+
+					<div class="slideme right col-xs-12 col-md-6">
+						Potencio e impulso la creatividad, la flexibilidad y la colaboración, desarrollando con 
+						mis clientes productos y servicios innovadores. Ayudo a dinamizar y agilizar sus 
+						sistemas de gestión y procesos claves, generando resultados eficientes y rentables.
+					</div>
+				</div>
+
+				<div class="clearfix main-wrap five">
+					<div class="single clearfix">
+						<div class="section col-xs-12 col-md-6">
+							<div class="h-wrap">
+								<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/exitos.png" alt="Emprendiendo Exitos" />
+								<div class="headers">
+									<h3>Emprendiendo Exitos</h3>
+									<h6>¿De qué manera creas tú solida marca personal?</h6>
+								</div>
+							</div>
 						</div>
 
-						<div class="slideme right col-xs-12 col-md-6">
-							Potencio e impulso la creatividad, la flexibilidad y la colaboración, desarrollando con 
-							mis clientes productos y servicios innovadores. Ayudo a dinamizar y agilizar sus 
-							sistemas de gestión y procesos claves, generando resultados eficientes y rentables.
+						<div class="section col-xs-12 col-md-6">
+							<div class="h-wrap">
+								<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/mejores.png" alt="Mejora Continua Organizacional" />
+								<div class="headers">
+									<h3>INNOVACIÓN ORGANIZACIONAL</h3>
+									<h6>¿Cómo afrontar de la mejor<br />manera un proceso de restructuración organizacional?</h6>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="clearfix single">
+						<div class="section col-xs-12 col-md-6">
+							<div class="h-wrap">
+								<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/inovacion.png" alt="Innovatión en la Gestión de Proyectos" />
+								<div class="headers">
+									<h3>GESTIÓN DE PROYECTOS</h3>
+									<h6>¿Qué es importante tener en cuenta para <br />fomentar equipos de alto rendimiento con un solo propósito?</h6>
+								</div>
+							</div>
+						</div>
+
+						<div class="section col-xs-12 col-md-6">
+							<div class="h-wrap">
+								<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/coaching.png" alt="Coaching Sistémico" />
+								<div class="headers">
+									<h3>COACHING SISTÉMICO</h3>
+									<h6>¿De qué manera eres capaz de despertar<br />tu creatividad, tu motivación, y tu compromiso?</h6>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
 
-				<div class="row">
-					<div class="five">
-						<div class="section col-xs-12 col-md-6">
-							<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/exitos.png" alt="Emprendiendo Exitos" />
-							<div class="headers">
-								<h3>Emprendiendo Exitos</h3>
-								<h6>¿De qué manera creas tú solida marca personal?</h6>
-							</div>
-						</div>
-
-
-						<div class="section col-xs-12 col-md-6">
-							<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/mejores.png" alt="Mejora Continua Organizacional" />
-							<div class="headers">
-								<h3>INNOVACIÓN ORGANIZACIONAL</h3>
-								<h6>¿Cómo afrontar de la mejor<br />manera un proceso de restructuración organizacional?</h6>
-							</div>
-						</div>
-
-						<div class="section col-xs-12 col-md-6">
-							<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/inovacion.png" alt="Innovatión en la Gestión de Proyectos" />
-							<div class="headers">
-								<h3>GESTIÓN DE PROYECTOS</h3>
-								<h6>¿Qué es importante tener en cuenta para <br />fomentar equipos de alto rendimiento con un solo propósito?</h6>
-							</div>
-						</div>
-
-						<div class="section col-xs-12 col-md-6">
-							<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/coaching.png" alt="Coaching Sistémico" />
-							<div class="headers">
-								<h3>COACHING SISTÉMICO</h3>
-								<h6>¿De qué manera eres capaz de despertar<br />tu creatividad, tu motivación, y tu compromiso?</h6>
-							</div>
-						</div>
-
+				<div class="clearfix main-wrap six">
+					<div class="left col-md-12 col-lg-6">
+						<h2>¿QUIÉN SOY YO?<br />
+							<span class="typeme">
+								Idealista<br />
+								Soñador<br />
+								Apasionado<br />
+								Intuitivo<br />
+								Flexible<br />
+								Capaz<br />
+								Autentico<br />
+								Emprendedor<br />
+							Comprometido
+							<span>
+						</h2>
+						<p class="upper slideme">
+						Mi nombre es Daniel Beas,<br />
+						Soy Consultor Estratégico y Facilitador Sistémico para la mejora continua y la gestión creativa de la innovación.<br />
+						Me dedico a apoyar a emprendedores y organizaciones, hacia una transformación sistémica exitosa; facilitando potenciar 
+						sus talentos, ayudándolos a descubrir nuevas herramientas, impulsando sus recursos esenciales....<br />
+						Creo en el ser humano como el Líder Estratégico de su propio cambio
+							<span class="readmore">
+								<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/arrow-full.png" alt="Find out more" />
+								<a href="" title="">
+									find out more
+								</a>
+							</span>
+						</p>
 					</div>
-				</div>
-
-				<div class="row">
-
-					<div class="six">
-						<div class="left col-xs-12 col-md-6">
-							<h2>¿QUIÉN SOY YO?<br />
-								<span class="typeme">
-									Idealista<br />
-									Soñador<br />
-									Apasionado<br />
-									Intuitivo<br />
-									Flexible<br />
-									Capaz<br />
-									Autentico<br />
-									Emprendedor<br />
-								Comprometido
-								<span>
-							</h2>
-							<p class="slideme">
+					<div class="right col-md-12 col-lg-6">
+						<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/parachute.png" alt="" />
+						<p class="lower slideme">
 							Mi nombre es Daniel Beas,<br />
 							Soy Consultor Estratégico y Facilitador Sistémico para la mejora continua y la gestión creativa de la innovación.<br />
 							Me dedico a apoyar a emprendedores y organizaciones, hacia una transformación sistémica exitosa; facilitando potenciar 
 							sus talentos, ayudándolos a descubrir nuevas herramientas, impulsando sus recursos esenciales....<br />
 							Creo en el ser humano como el Líder Estratégico de su propio cambio
-								<span class="readmore">
-									<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/arrow-full.png" alt="Find out more" />
-									<a href="" title="">
-										find out more
-									</a>
-								</span>
-							</p>
-						</div>
-
-						<div class="right col-xs-12 col-md-6">
-							<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/parachute.png" alt="" />
-						</div>
+							<span class="readmore">
+								<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/arrow-full.png" alt="Find out more" />
+								<a href="" title="">
+									find out more
+								</a>
+							</span>
+						</p>
 					</div>
 				</div>
 
-				<div class="row">
-					<div class="seven">
-						<div class="left col-xs-12 col-md-6">
-							<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/boy.png" alt="" />
-						</div>
+				<div class="clearfix main-wrap seven">
+					<div class="left col-md-12 col-lg-6">
+							<h2 class="upper">¿DE QUÉ MANERA LO HAGO?<br />“Aprendiendo a emprender”</h2>
+						<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/boy.png" alt="" />
+					</div>
 
-						<div class="right col-xs-12 col-md-6">
-							<h2>¿DE QUÉ MANERA LO HAGO?<br />“Aprendiendo a emprender”</h2>
-							<p class="slideme">
-								Facilitando y contribuyendo en todo momento una experiencia personalizada, practica, dinámica y ágil. 
-								Teniendo como objetivo principal apoyar a las personas en su gestión del liderazgo, para ganar con ello 
-								diferenciación, rendimiento y eficiencia.
-							</p>
-						</div>
+					<div class="right col-md-12 col-lg-6">
+						<h2 class="lower">¿DE QUÉ MANERA LO HAGO?<br />“Aprendiendo a emprender”</h2>
+						<p class="slideme">
+							Facilitando y contribuyendo en todo momento una experiencia personalizada, practica, dinámica y ágil. 
+							Teniendo como objetivo principal apoyar a las personas en su gestión del liderazgo, para ganar con ello 
+							diferenciación, rendimiento y eficiencia.
+						</p>
 					</div>
 				</div>
 
@@ -347,26 +363,24 @@ get_header(); ?>
 					</div>
 				</div>
 
-				<div class="row">
-					<div class="nine">
-						<div class="left col-xs-12 col-md-6">
-							<h2>Proximos Eventos<br />
-								<span class="typeme">
-									Talleres<br />
-									Seminarios<br />
-									Grupos de Estudio<br />
-									Formaciones<br />
-									Redes
-								<span>
-							</h2>
-						</div>
+				<div class="clearfix main-wrap nine">
+					<div class="left col-xs-12 col-md-6">
+						<h2>Proximos Eventos<br />
+							<span class="typeme">
+								Talleres<br />
+								Seminarios<br />
+								Grupos de Estudio<br />
+								Formaciones<br />
+								Redes
+							<span>
+						</h2>
+					</div>
 
-						<div class="right col-xs-12 col-md-6">
-							<p class="slideme">
-								"Echa un vistazo y participa con nosotros de diversas actividades tales como: Talleres, 
-								Seminarios, Grupos de estudios, Formaciones,…etc. Inscríbete Aquí!"
-							</p>
-						</div>
+					<div class="right col-xs-12 col-md-6">
+						<p class="slideme">
+							"Echa un vistazo y participa con nosotros de diversas actividades tales como: Talleres, 
+							Seminarios, Grupos de estudios, Formaciones,…etc. Inscríbete Aquí!"
+						</p>
 					</div>
 				</div>
 
@@ -513,7 +527,7 @@ get_header(); ?>
 					</div>
 				</div>
 
-				<div class="same">
+				<div class="same lower">
 					<div class="tag-wrap">
 						<h3>POPULAR TAGS</h3>
 						<div class="tag-cloud">
@@ -544,9 +558,12 @@ get_header(); ?>
 
 				<div class="line"></div>
 
-				<div class="same thirteen">
+				<div class="clearfix main-wrap same thirteen">
 						<div class="story">
 							<div class="hipster-wrap">
+							<div class="upper hipster-img-wrap">
+							<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/hipster.png" alt="" />
+						</div>
 								<h5>Suscribete a mi newsletter</h5>
 								<span class="slideme">
 									Consigue a través de mis mails personalizados, información relevante, 
@@ -563,7 +580,7 @@ get_header(); ?>
 								</p>
 							</a>
 						</div>
-						<div class="hipster-img-wrap">
+						<div class="lower hipster-img-wrap">
 							<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/hipster.png" alt="" />
 						</div>
 				</div>
@@ -591,23 +608,24 @@ get_header(); ?>
 					</div>
 				</div>
 
-				<div class="row">
-					<div class="main-wrap">
-						<div class="three">
-							<div class="left col-xs-12 col-md-6">
-								<a href="" title="">
-									<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/arrow-black.png" alt="" />
-									Pregunta me lo que queres
-								</a>
-							</div>
 
-							<div class="right col-xs-12 col-md-6">
-								<a href="" title="">
-									<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/arrow-black.png" alt="" />
-									Discutamos el tema a través del foro
-								</a>
-							</div>
-						</div>
+				<div class="main-wrap three">	
+					<div class="left col-md-12 col-lg-6">
+						<span class="mb">
+							<img class="mb-arrow" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/arrow-black.png" alt="Arrow" />
+							<a href="" title="">
+								PREGUNTA ME LO QUE QUERES
+							</a>
+						</span>
+					</div>
+
+					<div class="right col-md-12 col-lg-6">
+						<span class="mb">
+							<img class="mb-arrow" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/arrow-black	.png" alt="Arrow" />
+							<a href="" title="">
+								Discutamos el tema a través del foro
+							</a>
+						</span>
 					</div>
 				</div>
 
@@ -619,58 +637,54 @@ get_header(); ?>
 					</div>
 				</div>
 
-				<div class="row">
-					<div class="nine">
-						<div class="left col-xs-12 col-md-6">
-							<h2>experiencias<br /> de algunos <br />clientes</h2>
-						</div>
+				<div class="clearfix main-wrap nine">
+					<div class="left col-xs-12 col-md-6">
+						<h2>experiencias<br /> de algunos <br />clientes</h2>
+					</div>
 
-						<div class="right col-xs-12 col-md-6">
-							<div class="slider">
-								<div>
-									<div class="testimony">
-										<p>
-											"Mi experiencia de coaching con Daniel significa para mí un retorno a mis 
-											fundamentos en un nuevo proyecto. También podría decirlo a la inversa, mi 
-											proyección personal en un escenario nuevo poniendo en valor quien soy realmente. 
-											Descubro y aprendo nuevos conceptos, enfoques y herramientas, indispensables en el
-											 mundo de hoy, que encuentran su potencia al comprender mi servicio en el mercado 
-											 como un aporte personal de lo mejor que podría dar a mis clientes."
-										</p>
-										<span class="testimony-by">Javier Monroe</span>
-										<span>emprendedor</span>
-									</div>
+					<div class="right col-xs-12 col-md-6">
+						<div class="slider">
+							<div>
+								<div class="testimony">
+									<p>
+										"Mi experiencia de coaching con Daniel significa para mí un retorno a mis 
+										fundamentos en un nuevo proyecto. También podría decirlo a la inversa, mi 
+										proyección personal en un escenario nuevo poniendo en valor quien soy realmente. 
+										Descubro y aprendo nuevos conceptos, enfoques y herramientas, indispensables en el
+											mundo de hoy, que encuentran su potencia al comprender mi servicio en el mercado 
+											como un aporte personal de lo mejor que podría dar a mis clientes."
+									</p>
+									<span class="testimony-by">Javier Monroe</span>
+									<span>emprendedor</span>
 								</div>
-								<div>
-									<div class="testimony">
-										<p>
-											"Al comenzar con las sesiones no me creía capaz de alcanzar un objetivo personal que llevaba 
-											aplazando durante meses. A través del dedicado y comprometido acompañamiento de Daniel, 
-											poco a poco redescubrí técnicas y herramientas especificas para vencer los obstáculos 
-											que me lo impedían. Ahora con el objetivo logrado, me siento más feliz y realizada. He 
-											aprendido que la capacidad para lograr cumplir mis metas únicamente reside en mí."
-										</p>
-										<span class="testimony-by">Laura Guillén</span>
-										<span>emprendedora</span>
-									</div>
+							</div>
+							<div>
+								<div class="testimony">
+									<p>
+										"Al comenzar con las sesiones no me creía capaz de alcanzar un objetivo personal que llevaba 
+										aplazando durante meses. A través del dedicado y comprometido acompañamiento de Daniel, 
+										poco a poco redescubrí técnicas y herramientas especificas para vencer los obstáculos 
+										que me lo impedían. Ahora con el objetivo logrado, me siento más feliz y realizada. He 
+										aprendido que la capacidad para lograr cumplir mis metas únicamente reside en mí."
+									</p>
+									<span class="testimony-by">Laura Guillén</span>
+									<span>emprendedora</span>
 								</div>
-								<div>
-									<div class="testimony">
-										<p>
-											"Más alla del alcance de mi objetivo que me plantee al inico de las sesiones, 
-											mi proceso de coaching con Daniel ha sido un auto-aprendizaje personal, 
-											transformador y muy enriquecedor.
-										</p>
-										<span class="testimony-by">Alejandro Ortíz</span>
-										<span>emprendedor</span>
-									</div>
+							</div>
+							<div>
+								<div class="testimony">
+									<p>
+										"Más alla del alcance de mi objetivo que me plantee al inico de las sesiones, 
+										mi proceso de coaching con Daniel ha sido un auto-aprendizaje personal, 
+										transformador y muy enriquecedor.
+									</p>
+									<span class="testimony-by">Alejandro Ortíz</span>
+									<span>emprendedor</span>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-
-				
 
 		</main><!-- .site-main -->
 	</div><!-- .content-area -->

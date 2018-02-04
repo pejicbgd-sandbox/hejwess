@@ -1,16 +1,16 @@
 ( function( $ ) {
   $('.parallax section').each(function(){
-      var $bgobj = $(this); // assigning the object
+    var $bgobj = $(this); // assigning the object
 
-      $(window).scroll(function() {
-          var yPos = -($(window).scrollTop() / $bgobj.data('speed'));
-          var coords = '0% '+ yPos + 'px';
-          $bgobj.css({ backgroundPosition: coords });
-      });
+    $(window).scroll(function() {
+      var yPos = -($(window).scrollTop() / $bgobj.data('speed'));
+      var coords = '0% '+ yPos + 'px';
+      $bgobj.css({ backgroundPosition: coords });
+    });
   });
 
   $('.small-wrap span, .close').on('click', function() {
-      $('.menu').slideToggle(400);
+    $('.menu').slideToggle(400);
   });
 
   $('.slider').bxSlider();
@@ -31,12 +31,12 @@
 
     var isMenuVisible = menuTop < window.innerHeight && menuBottom >= 0;
     if (isMenuVisible) {
-        $smallMenu.slideUp(400);
-        $('.small-wrap').removeClass('visible');
+      $smallMenu.slideUp(400);
+      $('.small-wrap').removeClass('visible');
 
     } else {
-        $smallMenu.slideDown(400);
-        $('.small-wrap').addClass('visible');
+      $smallMenu.slideDown(400);
+      $('.small-wrap').addClass('visible');
     }
   }
 

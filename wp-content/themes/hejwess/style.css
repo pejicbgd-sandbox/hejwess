@@ -1359,4 +1359,21 @@ footer .social a:hover {
 	.mb .mb-arrow {
 		height: 20px;
 	}
+	.slider-wrap {
+		width: 90%;
+	}
+	.slider-wrap .right {
+		margin-right: 0;
+		margin-top: 50px;
+		width: 100%;
+	}
+	.slider-wrap .testimony p {
+    width: 70%;
+    padding: 0;
+    margin: 0 auto;
+	}
+	.bx-wrapper .bx-pager,
+	.bx-wrapper .bx-controls-auto {
+		padding-left: 0px;
+	}
 }

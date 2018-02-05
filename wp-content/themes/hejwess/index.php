@@ -490,36 +490,79 @@ get_header(); ?>
 					</div>
 				</div>
 
-				<div class="row">
-					<div class="twelve">
-						<div class="section col-xs-12 col-md-6">
-							<div class="col-xs-12">
-								<div class="wrap">
-									<img height="130" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/ideas.png" alt="" />
-									<div class="text col-xs-12">
-										<h3>Where do ideas come from?</h3>
-										<h6>Introducing the centered series. Join Ilona Holland on January 27 for the first workshop in the Centered series...</h6>
-											<img class="glava" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/glava.png" alt="" />
-											<div class="head-wrap">
-											<span class="name">Daniel Bias</span><br />
-											<span class="date">Dec 4</span>
-										</div>
+				<div class="twelve">
+
+				<div class="slider-wrap right col-md-12 col-lg-6">
+						<div class="slider">
+							<div>
+								<div class="testimony">
+									<p>
+										"Mi experiencia de coaching con Daniel significa para mí un retorno a mis 
+										fundamentos en un nuevo proyecto. También podría decirlo a la inversa, mi 
+										proyección personal en un escenario nuevo poniendo en valor quien soy realmente. 
+										Descubro y aprendo nuevos conceptos, enfoques y herramientas, indispensables en el
+											mundo de hoy, que encuentran su potencia al comprender mi servicio en el mercado 
+											como un aporte personal de lo mejor que podría dar a mis clientes."
+									</p>
+									<span class="testimony-by">Javier Monroe</span>
+									<span>emprendedor</span>
+								</div>
+							</div>
+							<div>
+								<div class="testimony">
+									<p>
+										"Al comenzar con las sesiones no me creía capaz de alcanzar un objetivo personal que llevaba 
+										aplazando durante meses. A través del dedicado y comprometido acompañamiento de Daniel, 
+										poco a poco redescubrí técnicas y herramientas especificas para vencer los obstáculos 
+										que me lo impedían. Ahora con el objetivo logrado, me siento más feliz y realizada. He 
+										aprendido que la capacidad para lograr cumplir mis metas únicamente reside en mí."
+									</p>
+									<span class="testimony-by">Laura Guillén</span>
+									<span>emprendedora</span>
+								</div>
+							</div>
+							<div>
+								<div class="testimony">
+									<p>
+										"Más alla del alcance de mi objetivo que me plantee al inico de las sesiones, 
+										mi proceso de coaching con Daniel ha sido un auto-aprendizaje personal, 
+										transformador y muy enriquecedor.
+									</p>
+									<span class="testimony-by">Alejandro Ortíz</span>
+									<span>emprendedor</span>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+					<div class="section col-md-12 col-lg-6">
+						<div class="col-xs-12">
+							<div class="wrap">
+								<img height="130" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/ideas.png" alt="" />
+								<div class="text col-md-12">
+									<h3>Where do ideas come from?</h3>
+									<h6>Introducing the centered series. Join Ilona Holland on January 27 for the first workshop in the Centered series...</h6>
+										<img class="glava" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/glava.png" alt="" />
+										<div class="head-wrap">
+										<span class="name">Daniel Bias</span><br />
+										<span class="date">Dec 4</span>
 									</div>
 								</div>
 							</div>
 						</div>
-						<div class="section col-xs-12 col-md-6">
-							<div class="col-xs-12">
-								<div class="wrap">
-									<img height="130" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/success.png" alt="" />
-									<div class="text col-xs-12">
-										<h3>What is success?</h3>
-										<h6>Introducing the centered series. Join Ilona Holland on January 27 for the first workshop in the Centered series...</h6>
-											<img class="glava" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/success-head.png" alt="" />
-											<div class="head-wrap">
-											<span class="name">Angels Ferrer</span><br />
-											<span class="date">Dec 3</span>
-										</div>
+					</div>
+					<div class="section col-xs-12 col-md-6">
+						<div class="col-xs-12">
+							<div class="wrap">
+								<img height="130" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/success.png" alt="" />
+								<div class="text col-xs-12">
+									<h3>What is success?</h3>
+									<h6>Introducing the centered series. Join Ilona Holland on January 27 for the first workshop in the Centered series...</h6>
+										<img class="glava" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/success-head.png" alt="" />
+										<div class="head-wrap">
+										<span class="name">Angels Ferrer</span><br />
+										<span class="date">Dec 3</span>
 									</div>
 								</div>
 							</div>
@@ -637,12 +680,12 @@ get_header(); ?>
 					</div>
 				</div>
 
-				<div class="clearfix main-wrap nine">
-					<div class="left col-xs-12 col-md-6">
+				<div class="clearfix main-wrap nine slider-wrap">
+					<div class="left col-md-12 col-lg-6">
 						<h2>experiencias<br /> de algunos <br />clientes</h2>
 					</div>
 
-					<div class="right col-xs-12 col-md-6">
+					<div class="right col-md-12 col-lg-6">
 						<div class="slider">
 							<div>
 								<div class="testimony">

@@ -13,8 +13,6 @@
 	<div class="line black"></div>
 </div>
 
-	</div><!-- .site-content -->
-
 	<footer class="container">
 		<div class="row">
 			<div class="col-xs-12 col-md-3">
@@ -100,7 +98,6 @@
 		</div>
 	</footer><!-- .site-footer -->
 
-</div><!-- .site -->
 
 <?php wp_footer(); ?>
 

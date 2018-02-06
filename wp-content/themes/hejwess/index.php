@@ -386,82 +386,79 @@ get_header(); ?>
 
 				<div class="line"></div>
 
-				<div class="slideme row bottom-space">
-					<div class="ten">
-						<div class="col-xs-12 col-md-4">
-							<img class="head" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/digital.png" alt="" />
-							<h2>Discover Your Light</h2>
-							<p>January 27, 2018<br />at Barcelona</p>
+				<div class="ten bottom-space">
+					<div class="slideme">
+						<img class="head" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/digital.png" alt="" />
+						<h2>Discover Your Light</h2>
+						<p>January 27, 2018<br />at Barcelona</p>
 
-							<p>
-								Introducing the Centered series. Join Ilona Holland on January 27
-								for the first workshop in the Centered series, Discover your Light.
-								Centered is a program series that
-								embraces the creative practices...
-							</p>
+						<p>
+							Introducing the Centered series. Join Ilona Holland on January 27
+							for the first workshop in the Centered series, Discover your Light.
+							Centered is a program series that
+							embraces the creative practices...
+						</p>
 
-							<span><a href="#" title="">Education</a></span>
-							<span><a href="#" title="">Performances</a></span>
-							<span><a href="#" title="">Light</a></span>
+						<span><a href="#" title="">Education</a></span>
+						<span><a href="#" title="">Performances</a></span>
+						<span><a href="#" title="">Light</a></span>
 
-							<div class="arrow">
-								<span>
-									<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/arrow-full.png" alt="" />
-									<a href="" title="">
-										find out more
-									</a>
-								</span>
-							</div>
+						<div class="arrow">
+							<span>
+								<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/arrow-full.png" alt="" />
+								<a href="" title="">
+									find out more
+								</a>
+							</span>
 						</div>
-						<div class="slideme col-xs-12 col-md-4">
-							<img class="head" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/digital.png" alt="" />
-							<h2>Discover Your Light</h2>
-							<p>January 27, 2018<br />at Barcelona</p>
+					</div>
+					<div class="slideme">
+						<img class="head" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/digital.png" alt="" />
+						<h2>Discover Your Light</h2>
+						<p>January 27, 2018<br />at Barcelona</p>
 
-							<p>
-								Introducing the Centered series. Join Ilona Holland on January 27
-								for the first workshop in the Centered series, Discover your Light.
-								Centered is a program series that
-								embraces the creative practices...
-							</p>
+						<p>
+							Introducing the Centered series. Join Ilona Holland on January 27
+							for the first workshop in the Centered series, Discover your Light.
+							Centered is a program series that
+							embraces the creative practices...
+						</p>
 
-							<span><a href="#" title="">Education</a></span>
-							<span><a href="#" title="">Performances</a></span>
-							<span><a href="#" title="">Light</a></span>
+						<span><a href="#" title="">Education</a></span>
+						<span><a href="#" title="">Performances</a></span>
+						<span><a href="#" title="">Light</a></span>
 
-							<div class="arrow">
-								<span>
-									<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/arrow-full.png" alt="" />
-									<a href="" title="">
-										find out more
-									</a>
-								</span>
-							</div>
+						<div class="arrow">
+							<span>
+								<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/arrow-full.png" alt="" />
+								<a href="" title="">
+									find out more
+								</a>
+							</span>
 						</div>
-						<div class="slideme col-xs-12 col-md-4">
-							<img class="head" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/moms.png" alt="" />
-							<h2>Nizar Mamdani</h2>
-							<p>March 29, 2018<br />at Barcelona</p>
+					</div>
+					<div class="slideme">
+						<img class="head" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/moms.png" alt="" />
+						<h2>Nizar Mamdani</h2>
+						<p>March 29, 2018<br />at Barcelona</p>
 
-							<p>
-								Join us  for a lecture from UNMC's Nizar Mamdani on March 29.
-								Nizar and his wife Dr. Marsha Mamdani will share experiences with their innovative non-profit organization First...
-							</p>
+						<p>
+							Join us  for a lecture from UNMC's Nizar Mamdani on March 29.
+							Nizar and his wife Dr. Marsha Mamdani will share experiences with their innovative non-profit organization First...
+						</p>
 
-							<span><a href="#" title="">Great Minds</a></span>
-							<span><a href="#" title="">Light Series</a></span>
-							<span><a href="#" title="">Lectures</a></span>
+						<span><a href="#" title="">Great Minds</a></span>
+						<span><a href="#" title="">Light Series</a></span>
+						<span><a href="#" title="">Lectures</a></span>
 
-							<div class="arrow">
-								<span>
-									<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/arrow-full.png" alt="" />
-									<a href="" title="">
-										find out more
-									</a>
-								</span>
-							</div>
+						<div class="arrow">
+							<span>
+								<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/arrow-full.png" alt="" />
+								<a href="" title="">
+									find out more
+								</a>
+							</span>
 						</div>
-
 					</div>
 				</div>
 

@@ -78,25 +78,25 @@
 				</form>
 				<div class="social">
 						<a href="#" title="Facebook">
-							<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/f.png" alt="" />
+							<i class="fa">&#xf09a;</i>
 						</a>
 						<a href="#" title="Twitter">
-							<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/t.png" alt="" />
+							<i class="fa">&#xf099;</i>
 						</a>
 						<a href="#" title="Linkedin">
-							<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/l.png" alt="" />
+							<i class="fa">&#xf0e1;</i>
 						</a>
 						<a href="#" title="Instagram">
-							<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/i.png" alt="" />
+							<i class="fa">&#xf16d;</i>
 						</a>
 						<a href="#" title="Youtube">
-							<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/y.png" alt="" />
+							<i class="fa">&#xf16a;</i>
 						</a>
 				</div>
 			</div>
 
 		</div>
-	</footer><!-- .site-footer -->
+	</footer>
 
 
 <?php wp_footer(); ?>

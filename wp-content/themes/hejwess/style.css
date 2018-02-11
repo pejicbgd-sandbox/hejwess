@@ -274,7 +274,10 @@ a img {
 .social a {
 	margin-bottom: 20px;
 }
-
+.social a .fa {
+	font-size: 16px;
+	color: black;
+}
 .parallax {
   height: 475px;
 	overflow-y: hidden;
@@ -441,13 +444,18 @@ a img {
 	justify-content: center;
 	height: 100%;
 }
-.five .single {
-	display: flex;
-}
 .five .section {
 	display: flex;
   align-items: center;
-  justify-content: center;
+	min-height: 125px;
+	padding: 10px 0 10px 35px;
+}
+.five .section .h-wrap {
+	display: flex;
+	align-items: center;
+}
+.five .section .h-wrap img {
+	width: 100px;
 }
 .five .section:nth-child(odd) {
 	border-right: 1px solid rgb(210, 210, 210);
@@ -457,10 +465,6 @@ a img {
 }
 .five .single {
 	border-top: 1px solid rgb(210, 210, 210);
-}
-.five .section {
-	min-height: 125px;
-	padding: 10px 0;
 }
 .five .headers {
 	margin-left: 20px;
@@ -620,7 +624,9 @@ a img {
 	width: 90%;
 	margin: 40px auto;
 }
-
+twelve .wrap .heading {
+	height: 130px;
+}
 .twelve .wrap h3 {
 	text-align: left;
 	font-size: 18px;
@@ -658,17 +664,6 @@ a img {
 .thirteen {
 	display: flex;
 	border-top: none !important;
-}
-.thirteen .hipster {
-	flex-direction: column;
-}
-.thirteen .hipster span {
-	background-color: #e0de00;
-	margin: 0 40px;
-	padding: 15px 0;
-	text-align: center;
-	font-size: 18px;
-	text-transform: uppercase;
 }
 .thirteen .hipster-wrap {
 	width: 55%;
@@ -1251,7 +1246,6 @@ footer .social a:hover {
 	.nine {
 		height: auto;
 		margin: 50px auto 35px;
-		width: 70%;
 		flex-direction: column;
 	}
 	.two h2,
@@ -1268,9 +1262,18 @@ footer .social a:hover {
 	.nine .right {
 		padding: 0;
 	}
+	.two .right,
+	.four .right,
+	.six .mobile {
+		width: 85%;
+		margin: 0 auto;
+	}
 	.nine .left {
 		padding: 0;
 		margin: 0;
+	}
+	.three a {
+		text-align: left;
 	}
 	.three .left {
 		margin-bottom: 5px;
@@ -1290,17 +1293,8 @@ footer .social a:hover {
 		display: flex;
 		align-items: center;
 	}
-	.five .section .h-wrap img {
-		height: 67px;
-		width: 88px;
-	}
 	.five .section:nth-child(odd) {
 		border-right: none;
-	}
-	.six .slideme {
-		margin: 0;
-		padding: 0;
-		width: 100%;
 	}
 	.seven p,
 	.nine p {
@@ -1334,8 +1328,9 @@ footer .social a:hover {
 		margin: 35px auto;
 		padding-top: 0;
 	}
-	.same .story a.shorter {
-		width: 100%;
+	.story p span {
+		display: inline;
+		text-align: left;
 	}
 	.slideme.upper {
 		display: none;
@@ -1367,6 +1362,26 @@ footer .social a:hover {
 	.ten .slideme {
 		margin: 0 30px;
 	}
+	.twelve .wrap {
+		flex-direction: column;
+	}
+	.twelve .wrap .heading {
+		width: 100%;
+		height: auto;
+		margin-bottom: 35px;
+	}
+	.twelve .wrap h3 {
+		font-size: 24px;
+	}
+	.twelve .wrap h6 {
+		font-size: 16px;
+	}
+	.twelve .head-wrap .name {
+		font-size: 16px;
+	}
+	.contained {
+		max-width: 100%;
+	}
 	.mb {
 		display: flex;
 		width: 70%;
@@ -1377,21 +1392,18 @@ footer .social a:hover {
 		height: 20px;
 	}
 	.slider-wrap {
-		width: 90%;
-		margin: 50px auto 100px;
-		position: relative;
+		margin-bottom: 100px;
 	}
 	.slider-wrap .right {
-		margin-right: 0;
-		margin-top: 50px;
-		width: 100%;
+		padding: 0;
+		margin: 0;
 	}
 	.testimony p {
-		width: 70%;
+		width: 60%;
 	}
 	.bx-wrapper .bx-prev,
 	.bx-wrapper .bx-next {
-		top: calc(40% - 50px);
+		top: calc(30% - 50px);
 	}
 	.bx-wrapper .bx-pager,
 	.bx-wrapper .bx-controls-auto {

@@ -111,7 +111,7 @@ get_header(); ?>
 </div>
 
 <div class="clearfix main-wrap two">
-	<div class="left col-xs-12 col-md-6">
+	<div class="left col-md-12 col-lg-6">
 		<h2>¿DE QUÉ TRATA TODO ESTO?<br />
 			<span class="typeme">
 				Visión<br />
@@ -130,7 +130,7 @@ get_header(); ?>
 		</h2>
 	</div>
 
-	<div class="slideme right col-xs-12 col-md-6">
+	<div class="slideme right col-md-12 col-lg-6">
 		El potencial autentico, la fuerza inspiradora de nuestro éxito;
 		reside principalmente en la influencia y el impacto generados a
 		través de nuestras herramientas,
@@ -139,9 +139,7 @@ get_header(); ?>
 	</div>
 </div>
 
-<div class="clearfix">&nbsp</div>
-
-<div class="main-wrap three">
+<div class="clearfix main-wrap three">
 	<div class="left col-md-12 col-lg-6">
 		<span class="mb">
 			<img class="mb-arrow" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/arrow-black.png" alt="Arrow" />
@@ -170,11 +168,11 @@ get_header(); ?>
 </div>
 
 <div class="clearfix main-wrap four">
-	<div class="left col-xs-12 col-md-6">
+	<div class="left col-md-12 col-lg-6">
 		<h2>What we<br /> do?</h2>
 	</div>
 
-	<div class="slideme right col-xs-12 col-md-6">
+	<div class="slideme right col-md-12 col-lg-6">
 		Potencio e impulso la creatividad, la flexibilidad y la colaboración, desarrollando con
 		mis clientes productos y servicios innovadores. Ayudo a dinamizar y agilizar sus
 		sistemas de gestión y procesos claves, generando resultados eficientes y rentables.
@@ -183,7 +181,7 @@ get_header(); ?>
 
 <div class="clearfix main-wrap five">
 	<div class="single clearfix">
-		<div class="section col-xs-12 col-md-6">
+		<div class="section col-md-12 col-lg-6">
 			<div class="h-wrap">
 				<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/exitos.png" alt="Emprendiendo Exitos" />
 				<div class="headers">
@@ -193,7 +191,7 @@ get_header(); ?>
 			</div>
 		</div>
 
-		<div class="section col-xs-12 col-md-6">
+		<div class="section col-md-12 col-lg-6">
 			<div class="h-wrap">
 				<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/mejores.png" alt="Mejora Continua Organizacional" />
 				<div class="headers">
@@ -205,7 +203,7 @@ get_header(); ?>
 	</div>
 
 	<div class="clearfix single">
-		<div class="section col-xs-12 col-md-6">
+		<div class="section col-md-12 col-lg-6">
 			<div class="h-wrap">
 				<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/inovacion.png" alt="Innovatión en la Gestión de Proyectos" />
 				<div class="headers">
@@ -215,7 +213,7 @@ get_header(); ?>
 			</div>
 		</div>
 
-		<div class="section col-xs-12 col-md-6">
+		<div class="section col-md-12 col-lg-6">
 			<div class="h-wrap">
 				<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/coaching.png" alt="Coaching Sistémico" />
 				<div class="headers">
@@ -257,7 +255,7 @@ get_header(); ?>
 		</p>
 	</div>
 	<div class="right col-md-12 col-lg-6">
-		<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/parachute.png" alt="" />
+		<img class="contained" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/parachute.png" alt="" />
 		<p class="mobile slideme">
 			Mi nombre es Daniel Beas,<br />
 			Soy Consultor Estratégico y Facilitador Sistémico para la mejora continua y la gestión creativa de la innovación.<br />
@@ -276,8 +274,8 @@ get_header(); ?>
 
 <div class="clearfix main-wrap seven">
 	<div class="left col-md-12 col-lg-6">
-			<h2 class="mobile">¿DE QUÉ MANERA LO HAGO?<br />“Aprendiendo a emprender”</h2>
-		<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/boy.png" alt="" />
+		<h2 class="mobile">¿DE QUÉ MANERA LO HAGO?<br />“Aprendiendo a emprender”</h2>
+		<img class="contained" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/boy.png" alt="" />
 	</div>
 
 	<div class="right col-md-12 col-lg-6">
@@ -333,7 +331,7 @@ get_header(); ?>
 		</div>
 	</div>
 </div>
-<div class="eight">
+<div class="clearfix main-wrap eight">
 	<div class="line"></div>
 	<div class="wrap col-xs-12 col-md-4">
 		<div class="flex-wrap">
@@ -353,7 +351,7 @@ get_header(); ?>
 
 <p class="space">Upcoming events</p>
 
-<div class="main-wrap">
+<div class="clearfix main-wrap">
 	<div class="parallax">
 		<section data-speed="2" class="events">
 			<h1>events</hi>
@@ -362,7 +360,7 @@ get_header(); ?>
 </div>
 
 <div class="clearfix main-wrap nine">
-	<div class="left col-xs-12 col-md-6">
+	<div class="left col-md-12 col-lg-6">
 		<h2>Proximos Eventos<br />
 			<span class="typeme">
 				Talleres<br />
@@ -374,7 +372,7 @@ get_header(); ?>
 		</h2>
 	</div>
 
-	<div class="right col-xs-12 col-md-6">
+	<div class="right col-md-12 col-lg-6">
 		<p class="slideme">
 			"Echa un vistazo y participa con nosotros de diversas actividades tales como: Talleres,
 			Seminarios, Grupos de estudios, Formaciones,…etc. Inscríbete Aquí!"
@@ -384,7 +382,7 @@ get_header(); ?>
 
 <div class="line"></div>
 
-<div class="clearfix mai-wrap ten bottom-space">
+<div class="clearfix main-wrap ten bottom-space">
 	<div class="slideme">
 		<img class="head" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/digital.png" alt="" />
 		<h2>Discover Your Light</h2>
@@ -471,11 +469,11 @@ get_header(); ?>
 </div>
 
 <div class="clearfix main-wrap nine">
-	<div class="left col-xs-12 col-md-6">
+	<div class="left col-md-12 col-lg-6">
 		<h2>Intercambiemos<br /> conocimiento!</h2>
 	</div>
 
-	<div class="right col-xs-12 col-md-6">
+	<div class="right col-md-12 col-lg-6">
 		<p class="slideme">
 			Quiero compartir contigo tendencias actuales, estrategias,
 			herramientas, etc. Suscríbete y forma parte activa de nuestra comunidad.
@@ -486,8 +484,8 @@ get_header(); ?>
 <div class="clearfix main-wrap twelve">
 	<div class="section">
 		<div class="wrap">
-			<img height="130" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/ideas.png" alt="" />
-			<div class="col-md-12">
+			<img class="heading" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/ideas.png" alt="" />
+			<div>
 				<h3>Where do ideas come from?</h3>
 				<h6>Introducing the centered series. Join Ilona Holland on January 27 for the first workshop in the Centered series...</h6>
 					<img class="glava" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/glava.png" alt="" />
@@ -501,8 +499,8 @@ get_header(); ?>
 
 	<div class="section">
 		<div class="wrap">
-			<img height="130" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/success.png" alt="" />
-			<div class="col-md-12">
+			<img class="heading" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/success.png" alt="" />
+			<div>
 				<h3>What is success?</h3>
 				<h6>Introducing the centered series. Join Ilona Holland on January 27 for the first workshop in the Centered series...</h6>
 					<img class="glava" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/success-head.png" alt="" />
@@ -551,7 +549,7 @@ get_header(); ?>
 	<div class="story">
 		<div class="hipster-wrap">
 		<div class="mobile hipster-img-wrap">
-		<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/hipster.png" alt="" />
+		<img class="contained" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/hipster.png" alt="" />
 	</div>
 			<h5>Suscribete a mi newsletter</h5>
 			<span class="slideme">
@@ -560,14 +558,14 @@ get_header(); ?>
 				necesitas para que conozcas mi forma de trabajo y colaboremos juntos.
 			</span>
 		</div>
+
 		<a href="" title="" class="shorter">
 			<p class="submit-story all">
 				<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/arrow-black.png" alt="" />
-				<span>
-						Me gustaría recibir el newsletter
-				<span>
+				<span>Me gustaría recibir el newsletter<span>
 			</p>
 		</a>
+
 	</div>
 	<div class="desktop hipster-img-wrap">
 		<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/hipster.png" alt="" />
@@ -583,11 +581,11 @@ get_header(); ?>
 </div>
 
 <div class="clearfix main-wrap nine">
-	<div class="left col-xs-12 col-md-6">
+	<div class="left col-md-12 col-lg-6">
 		<h2>¿HABLAMOS? <br />Preguntame lo que <br />quieras</h2>
 	</div>
 
-	<div class="right col-xs-12 col-md-6">
+	<div class="right col-md-12 col-lg-6">
 		<p class="slideme">
 			A través de esta innovadora herramienta, estaré encantado de responderte personalmente,
 			cualquier consulta que tengas en tiempo real.
@@ -616,6 +614,7 @@ get_header(); ?>
 	</div>
 </div>
 
+<div class="clearfix">&nbsp;</div>
 <div class="main-wrap">
 	<div class="parallax top">
 		<section data-speed="2" class="testimonias">

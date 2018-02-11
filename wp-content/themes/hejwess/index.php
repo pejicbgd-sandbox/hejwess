@@ -131,11 +131,16 @@ get_header(); ?>
 	</div>
 
 	<div class="slideme right col-md-12 col-lg-6">
-		El potencial autentico, la fuerza inspiradora de nuestro éxito;
-		reside principalmente en la influencia y el impacto generados a
-		través de nuestras herramientas,
-		recursos y tácticas empleadas, así como en nuestra capacidad de
-		reconexión consciente con nuestro verdadero propósito.
+		<span class="desktop">
+			El potencial autentico, la fuerza inspiradora de nuestro éxito;
+			reside principalmente en la influencia y el impacto generados a
+			través de nuestras herramientas,
+			recursos y tácticas empleadas, así como en nuestra capacidad de
+			reconexión consciente con nuestro verdadero propósito.
+		</span>
+		<span class="mobile">
+			¿Cómo lideras tu impacto a corto - medio plazo y cuál es la vía más eficiente para conseguirlo?
+		</span>
 	</div>
 </div>
 
@@ -485,7 +490,7 @@ get_header(); ?>
 	<div class="section">
 		<div class="wrap">
 			<img class="heading" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/ideas.png" alt="" />
-			<div>
+			<div class="text">
 				<h3>Where do ideas come from?</h3>
 				<h6>Introducing the centered series. Join Ilona Holland on January 27 for the first workshop in the Centered series...</h6>
 					<img class="glava" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/glava.png" alt="" />
@@ -500,7 +505,7 @@ get_header(); ?>
 	<div class="section">
 		<div class="wrap">
 			<img class="heading" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/success.png" alt="" />
-			<div>
+			<div class="text">
 				<h3>What is success?</h3>
 				<h6>Introducing the centered series. Join Ilona Holland on January 27 for the first workshop in the Centered series...</h6>
 					<img class="glava" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/success-head.png" alt="" />

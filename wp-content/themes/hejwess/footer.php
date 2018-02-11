@@ -9,7 +9,7 @@
  */
 ?>
 
-<div class="main-wrap">
+<!--<div class="main-wrap">
 	<div class="line black"></div>
 </div>
 
@@ -96,7 +96,7 @@
 			</div>
 
 		</div>
-	</footer>
+	</footer>-->
 
 
 <?php wp_footer(); ?>

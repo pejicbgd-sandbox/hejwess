@@ -123,8 +123,8 @@ a img {
 	 margin-right: 0;
  }
  .main-wrap {
-	padding-left: 30px;
-	padding-right: 30px;
+	padding-left: 40px;
+	padding-right: 40px;
  }
  html {
   font-family: 'Karla', sans-serif;
@@ -159,10 +159,8 @@ a img {
 	display: flex;
 }
 .small-wrap span {
-	font-size: 16px;
+	font-size: 15px;
 	cursor: pointer;
-	font-weight: bold;
-	color: black;
 }
 .menu {
 	position: fixed;
@@ -217,11 +215,12 @@ a img {
 	margin-left: 4px;
 	font-size: 15px;
 }
-.splash .langs a {
+.langs a {
 	color: grey;
 }
-.splash .langs .active {
+.langs .active {
 	color: black;
+	font-weight: bold;
 }
 .splash .content {
   display: flex;
@@ -251,7 +250,7 @@ a img {
 	-webkit-transition: border 300ms ease-in;
   transition: border 300ms ease-in;
 }
-.splash .langs a {
+.langs a {
 	text-decoration: none;
 	padding-left: 10px;
 }
@@ -291,10 +290,12 @@ a img {
 .parallax h1 {
   position: absolute;
   text-align: center;
-  top: 270px;
+  text-transform: capitalize;
+  top: 250px;
 	left: 50px;
 	color: white;
-	font-size: 211px;
+	font-size: 200px;
+	font-family: "Anton";
 }
 .aim {
 	background: url("img/aim.png") repeat fixed;
@@ -369,8 +370,6 @@ a img {
  .six p span {
 	 display: flex;
 	 margin-top: 20px;
-	 align-items: end;
-	 justify-content: flex-end;
  }
  .six p span img {
 	 display: inline-block;
@@ -413,7 +412,7 @@ a img {
 	align-items: center;
 	height: 100%;
 	padding: 0;
-	border: 1px solid rgb(210, 210, 210);
+	border: 2px solid white;
  }
 .three a {
   color: inherit;
@@ -470,11 +469,14 @@ a img {
 	margin-left: 20px;
 }
 .five h3 {
+	font-family: "Montserrat";
+  font-size: 20px;
+  font-weight: bold;
   text-transform: uppercase;
   color: black;
-  font-size: 20px;
 }
 .five h6 {
+	font-family: Lora;
   font-size: 16px;
   color:#59a1d1;
 }
@@ -534,19 +536,20 @@ a img {
 .eight .flex-wrap {
 	display: flex;
 	min-height: 80px;
-	width: 250px;
 }
 .eight p {
-	font-size: 16px;
 	font-weight: bold;
+	font-family: "Montserrat";
+	font-size: 16px;
 	text-transform: uppercase;
 	display: flex;
 	padding-left: 20px;
 	align-self: flex-end;
 }
 .eight a {
-  font-size: 16px;
 	font-weight: bold;
+	font-family: "Montserrat";
+	font-size: 16px;
   text-decoration: underline;
   display: inline-block;
   color: #333;
@@ -612,6 +615,9 @@ a img {
 	padding: 20px 0;
 	border-top: 1px solid rgb(210, 210, 210);
 }
+.twelve .text {
+	margin-left: 20px;
+}
 .twelve .section.desktop {
 	padding: 0;
 }
@@ -655,6 +661,9 @@ twelve .wrap .heading {
 .twelve .head-wrap .date {
 	font-size: 14px;
 }
+.slider-wrap .left {
+	align-self: flex-start;
+}
 .thirteen a {
 	color: #333;
 }
@@ -678,6 +687,7 @@ twelve .wrap .heading {
 }
 .thirteen .hipster-wrap h5 {
 	font-size: 40px;
+	font-family: Anton;
 	font-weight: bold;
 	text-align: center;
 }
@@ -800,12 +810,14 @@ twelve .wrap .heading {
 *
 */
 .bx-wrapper .bx-prev {
-	left: 15px;
+	left: 50px;
 	background: url(img/slider-left.png) no-repeat;
+	background-size: contain;
 }
 .bx-wrapper .bx-next {
-	right: 15px;
+	right: 50px;
 	background: url(img/slider-right.png) no-repeat;
+	background-size: contain;
 }
 .bx-controls {
 	display: flex;
@@ -817,8 +829,8 @@ twelve .wrap .heading {
 	position: absolute;
 	top: calc(30% - 50px);
 	outline: 0;
-	width: 53px;
-	height: 100px;
+	width: 30px;
+	height: 60px;
 	text-indent: -9999px;
 	z-index: 9999;
 }
@@ -884,51 +896,6 @@ twelve .wrap .heading {
 	font-weight: bolder;
 	margin-top: 20px;
 }
-/**
-* 4 - Footer
-*
-*/
-footer {
-	margin: 30px 0;
-	font-size: 18px;
-}
-footer h4 {
-	margin-bottom: 15px;
-	font-size: 20px;
-	color:	#fe8713;
-}
-footer h3 {
-	margin: 10px 0;
-	font-size: 18px;
-	font-weight: bold;
-	color:	#fe8713;
-}
-footer ul li a {
-	color: black;
-}
-footer ul li a:hover {
-	text-decoration: none;
-	color: black;
-}
-footer input {
-	display: inline-block;
-	margin-bottom: 10px;
-	font-size: 14px;
-}
-footer button {
-	background-color: #fe8713;
-	border-radius: 2px;
-	padding: 3px 15px;
-	font-size: 14px;
-	border: none !important;
-}
-footer .social a {
-	margin-right: 10px;
-}
-footer .social a:hover {
-	text-decoration: none;
-}
-
 /**
 *	INNOVACIONAL
 */
@@ -1245,7 +1212,7 @@ footer .social a:hover {
 	.seven,
 	.nine {
 		height: auto;
-		margin: 50px auto 35px;
+		margin: 100px auto;
 		flex-direction: column;
 	}
 	.two h2,
@@ -1378,6 +1345,10 @@ footer .social a:hover {
 	}
 	.twelve .head-wrap .name {
 		font-size: 16px;
+	}
+	.seven .contained,
+	.thirteen .contained {
+		max-width: 600px;
 	}
 	.contained {
 		max-width: 100%;

@@ -12,7 +12,7 @@ get_header(); ?>
 			<img height="20" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/menu.png" alt="Logo" />
 			menu
 		</span>
-		<img height="20" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/menu-logo.png" alt="Logo" />
+		<img class="menu-logo" height="20" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/menu-logo.png" alt="Logo" />
 		<div class="langs">
 			<a href="" title=""><span class="active">en.</span></a>
 			<a href="" title=""><span>ge.</span></a>
@@ -22,14 +22,7 @@ get_header(); ?>
 	</div>
 </div>
 
-<div class="splash">
-	<div class="logo">
-		<a href="<?php echo get_site_url() ?>" title="Home">
-			<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/footer-logo.png" alt="Logo" />
-		</a>
-	</div>
-
-	<div class="menu">
+<div class="menu">
 		<div class="menu-wrap">
 			<svg height="80" width="80" class="close">
 				<line x1="0" y1="0" x2="80" y2="80"></line>
@@ -60,7 +53,13 @@ get_header(); ?>
 			</ul>
 		</div>
 	</div>
-
+	
+<div class="splash">
+	<div class="logo">
+		<a href="<?php echo get_site_url() ?>" title="Home">
+			<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/footer-logo.png" alt="Logo" />
+		</a>
+	</div>
 
 	<div class="langs">
 		<a href="" title=""><span class="active">en.</span></a>
@@ -249,12 +248,12 @@ get_header(); ?>
 		Mi nombre es Daniel Beas,<br />
 		Soy Consultor Estratégico y Facilitador Sistémico para la mejora continua y la gestión creativa de la innovación.<br />
 		Me dedico a apoyar a emprendedores y organizaciones, hacia una transformación sistémica exitosa; facilitando potenciar
-		sus talentos, ayudándolos a descubrir nuevas herramientas, impulsando sus recursos esenciales....<br />
-		Creo en el ser humano como el Líder Estratégico de su propio cambio
+		sus talentos, ayudándolos a descubrir nuevas herramientas, impulsando sus recursos esenciales.....<br />
+			Creo en el ser humano como el Líder Estratégico de su propio cambio
 			<span class="readmore">
-				<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/arrow-full.png" alt="Find out more" />
+				<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/arrow-full.png" alt="descubre más" />
 				<a href="" title="">
-					find out more
+					descubre más
 				</a>
 			</span>
 		</p>
@@ -265,12 +264,11 @@ get_header(); ?>
 			Mi nombre es Daniel Beas,<br />
 			Soy Consultor Estratégico y Facilitador Sistémico para la mejora continua y la gestión creativa de la innovación.<br />
 			Me dedico a apoyar a emprendedores y organizaciones, hacia una transformación sistémica exitosa; facilitando potenciar
-			sus talentos, ayudándolos a descubrir nuevas herramientas, impulsando sus recursos esenciales....<br />
-			Creo en el ser humano como el Líder Estratégico de su propio cambio
+			sus talentos, ayudándolos a descubrir nuevas herramientas, impulsando sus recursos esenciales.
 			<span class="readmore">
-				<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/arrow-full.png" alt="Find out more" />
+				<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/arrow-full.png" alt="descubre más" />
 				<a href="" title="">
-					find out more
+					descubre más
 				</a>
 			</span>
 		</p>
@@ -285,16 +283,19 @@ get_header(); ?>
 
 	<div class="right col-md-12 col-lg-6">
 		<h2 class="desktop">¿DE QUÉ MANERA LO HAGO?<br />“Aprendiendo a emprender”</h2>
-		<p class="slideme">
+		<p class="slideme desktop">
 			Facilitando y contribuyendo en todo momento una experiencia personalizada, practica, dinámica y ágil.
 			Teniendo como objetivo principal apoyar a las personas en su gestión del liderazgo, para ganar con ello
 			diferenciación, rendimiento y eficiencia.
+		</p>
+		<p class="slideme mobile">
+			Facilitando y contribuyendo en todo momento una experiencia personalizada, practica, dinámica y ágil.
 		</p>
 	</div>
 </div>
 
 <div class="clearfix main-wrap eight first">
-	<div class="line"></div>
+	<div class="desktop line"></div>
 	<div class="wrap col-xs-12 col-md-4">
 		<div class="flex-wrap">
 			<span>1</span>
@@ -316,7 +317,7 @@ get_header(); ?>
 </div>
 
 <div class="clearfix main-wrap eight">
-	<div class="line"></div>
+	<div class="desktop line"></div>
 	<div class="wrap col-xs-12 col-md-4">
 		<div class="flex-wrap">
 			<span>4</span>
@@ -337,7 +338,7 @@ get_header(); ?>
 	</div>
 </div>
 <div class="clearfix main-wrap eight">
-	<div class="line"></div>
+	<div class="desktop line"></div>
 	<div class="wrap col-xs-12 col-md-4">
 		<div class="flex-wrap">
 			<span>7</span>
@@ -346,9 +347,9 @@ get_header(); ?>
 	</div>
 	<div class="wrap col-xs-12 col-md-4">
 		<div class="arrow-wrap">
-			<img height="24" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/arrow-full.png" alt="Find out more" />
+			<img height="24" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/arrow-full.png" alt="descubre más" />
 			<a href="" alt="">
-				find out more
+				descubre más
 			</a>
 		</div>
 	</div>
@@ -408,7 +409,7 @@ get_header(); ?>
 			<span>
 				<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/arrow-full.png" alt="" />
 				<a href="" title="">
-					find out more
+					descubre más
 				</a>
 			</span>
 		</div>
@@ -433,7 +434,7 @@ get_header(); ?>
 			<span>
 				<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/arrow-full.png" alt="" />
 				<a href="" title="">
-					find out more
+					descubre más
 				</a>
 			</span>
 		</div>
@@ -456,7 +457,7 @@ get_header(); ?>
 			<span>
 				<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/arrow-full.png" alt="" />
 				<a href="" title="">
-					find out more
+					descubre más
 				</a>
 			</span>
 		</div>
@@ -480,8 +481,8 @@ get_header(); ?>
 
 	<div class="right col-md-12 col-lg-6">
 		<p class="slideme">
-			Quiero compartir contigo tendencias actuales, estrategias,
-			herramientas, etc. Suscríbete y forma parte activa de nuestra comunidad.
+			Quiero compartir contigo <b>Tendencias</b> actuales, <b>Estrategias, Herramientas, Conocimiento</b> y mucho más.
+			Suscríbete y forma parte activa de nuestra comunidad.
 		</p>
 	</div>
 </div>
@@ -557,10 +558,13 @@ get_header(); ?>
 		<img class="contained" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/hipster.png" alt="" />
 	</div>
 			<h5>Suscribete a mi newsletter</h5>
-			<span class="slideme">
+			<span class="desktop slideme">
 				Consigue a través de mis mails personalizados, información relevante,
 				noticias de vanguardia, herramientas, técnicas,...Todo el valor añadido que
 				necesitas para que conozcas mi forma de trabajo y colaboremos juntos.
+			</span>
+			<span class="mobile slideme">
+				Todo el valor añadido que necesitas para que conozcas mi forma de trabajo y colaboremos juntos.
 			</span>
 		</div>
 

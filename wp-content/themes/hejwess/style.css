@@ -576,6 +576,7 @@ a img {
 }
 .ten h2 {
   font-size: 20px;
+  font-weight: bold;
   margin-top: 15px;
   margin-bottom: 10px;
 }
@@ -588,11 +589,16 @@ a img {
 	display: inline-block;
   margin-right: 10px;
   margin-bottom: 20px;
-  font-size: 16px;
+  font-size: 15px;
+  font-family: Lora;
 }
 .ten span a {
 	color: #333;
 	text-decoration: underline;
+}
+.ten .arrow span {
+	font-family: Karla;
+	font-weight: bold;
 }
 .ten span a:hover {
 	text-decoration: none;
@@ -1198,9 +1204,7 @@ twelve .wrap .heading {
 @media (max-width: 992px) {
 	.social,
 	.parallax h1,
-	.splash,
-	.eight,
-	footer {
+	.splash {
     display: none;
 	}
 	.main-wrap {
@@ -1209,8 +1213,7 @@ twelve .wrap .heading {
 	.two,
 	.four,
 	.six,
-	.seven,
-	.nine {
+	.seven {
 		height: auto;
 		margin: 100px auto;
 		flex-direction: column;
@@ -1267,7 +1270,18 @@ twelve .wrap .heading {
 	.nine p {
 		width: 100%;
 		padding: 0;
-		margin: 35px auto;
+		margin: 35px auto 0;
+	}
+	.seven .left {
+		margin-right: 0;
+	}
+	.eight .wrap {
+		justify-content: flex-start;
+	}
+	.nine {
+		height: auto;
+		margin: 100px auto;
+		flex-direction: column;
 	}
 	.twelve .section {
 		width: 100%;
@@ -1327,7 +1341,7 @@ twelve .wrap .heading {
 		height: auto;
 	}
 	.ten .slideme {
-		margin: 0 30px;
+		margin: 30px 30px;
 	}
 	.twelve .wrap {
 		flex-direction: column;
@@ -1351,7 +1365,7 @@ twelve .wrap .heading {
 		max-width: 600px;
 	}
 	.contained {
-		max-width: 100%;
+		max-width: 100% !important;
 	}
 	.mb {
 		display: flex;
@@ -1365,6 +1379,9 @@ twelve .wrap .heading {
 	.slider-wrap {
 		margin-bottom: 100px;
 	}
+	.slider-wrap .left {
+		align-self: center;
+	}
 	.slider-wrap .right {
 		padding: 0;
 		margin: 0;
@@ -1375,6 +1392,12 @@ twelve .wrap .heading {
 	.bx-wrapper .bx-prev,
 	.bx-wrapper .bx-next {
 		top: calc(30% - 50px);
+	}
+	.bx-wrapper .bx-next {
+		right: 25px;
+	}
+	.bx-wrapper .bx-prev {
+		left: 25px;
 	}
 	.bx-wrapper .bx-pager,
 	.bx-wrapper .bx-controls-auto {

@@ -1,14 +1,4 @@
 ( function( $ ) {
-  $('.parallax section').each(function(){
-    var $bgobj = $(this);
-
-    $(window).scroll(function() {
-      var yPos = -($(window).scrollTop() / $bgobj.data('speed'));
-      var coords = '0% '+ yPos + 'px';
-      $bgobj.css({ backgroundPosition: coords });
-    });
-  });
-
   $('.small-wrap span, .close').on('click', function() {
     $('.menu').slideToggle(400);
   });

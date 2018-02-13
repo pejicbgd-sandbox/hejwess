@@ -101,12 +101,8 @@ get_header(); ?>
 	</div>
 </div>
 
-<div class="main-wrap">
-<div class="parallax">
-	<section data-speed="2" class="aim">
-		<h1>Aim</hi>
-	</section>
-</div>
+<div class="parallax aim">
+	<h1>aim</h1>
 </div>
 
 <div class="clearfix main-wrap two">
@@ -163,13 +159,9 @@ get_header(); ?>
 	</div>
 </div>
 
-<div class="clearfix main-wrap">
-	<div class="parallax fourth">
-		<section data-speed="2" class="services">
-			<h1>servicios</hi>
-		</section>
+	<div class="parallax fourth services">
+		<h1>servicios</hi>
 	</div>
-</div>
 
 <div class="clearfix main-wrap four">
 	<div class="left col-md-12 col-lg-6">
@@ -357,12 +349,8 @@ get_header(); ?>
 
 <p class="space">Upcoming events</p>
 
-<div class="clearfix main-wrap">
-	<div class="parallax">
-		<section data-speed="2" class="events">
-			<h1>events</hi>
-		</section>
-	</div>
+<div class="clearfix parallax events">
+	<h1>events</hi>
 </div>
 
 <div class="clearfix main-wrap nine">
@@ -466,12 +454,8 @@ get_header(); ?>
 
 <div class="line"></div>
 
-<div class="main-wrap">
-	<div class="parallax top">
-		<section data-speed="2" class="blog">
-			<h1>blog</hi>
-		</section>
-	</div>
+<div class="parallax top blog">
+	<h1>blog</hi>
 </div>
 
 <div class="clearfix main-wrap nine">
@@ -581,12 +565,8 @@ get_header(); ?>
 	</div>
 </div>
 
-<div class="main-wrap">
-	<div class="parallax top">
-		<section data-speed="2" class="talk">
-			<h1>talk</hi>
-		</section>
-	</div>
+<div class="parallax top talk">
+	<h1>talk</hi>
 </div>
 
 <div class="clearfix main-wrap nine">
@@ -624,12 +604,9 @@ get_header(); ?>
 </div>
 
 <div class="clearfix">&nbsp;</div>
-<div class="main-wrap">
-	<div class="parallax top">
-		<section data-speed="2" class="testimonias">
-			<h1>testimonios</h1>
-		</section>
-	</div>
+
+<div class="parallax top testimonias">
+	<h1>testimonios</h1>
 </div>
 
 <div class="clearfix main-wrap nine slider-wrap">

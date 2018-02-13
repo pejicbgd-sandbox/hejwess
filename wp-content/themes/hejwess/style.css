@@ -276,7 +276,48 @@ a img {
 	font-size: 16px;
 	color: black;
 }
+
+.test {
+	margin:0;
+  padding:0;
+	perspective: 1px;
+	transform-style: preserve-3d;
+  height: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  color: white;
+  font-weight: bold;
+}
+.slide {
+  position: relative;
+  min-height: 475px;
+  width: 100vw;
+  box-sizing: border-box;
+  box-shadow: 0 -1px 10px rgba(0, 0, 0, .7);
+	transform-style: inherit;
+}
+.slide:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.slide, .slide:before {
+  background: 50% 50% / cover;  
+}
+#slide1:before {
+  background-image: url("img/aim.png");
+  transform: translateZ(-1px) scale(2);
+}
+
+
+
+
+
 .parallax { 
+	position: relative;
   height: 475px; 
   background-attachment: fixed;
   background-position: center;
@@ -296,6 +337,8 @@ a img {
 }
 .aim {
 	background: url("img/aim.png");
+	height: 100px;
+	overflow-y: auto;
 }
 .services {
 	background: url("img/services.png");
